@@ -1,0 +1,421 @@
+1699522211361	geckodriver	INFO	Listening on 127.0.0.1:60613
+1699522211896	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileQEvsHC"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699522214309	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699522214716	Marionette	INFO	Listening on port 60620
+Read port: 60620
+1699522215654	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+1699522224307	Marionette	INFO	Stopped listening on port 60620
+Dynamically enable window occlusion 1
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1699522660370	geckodriver	INFO	Listening on 127.0.0.1:60662
+1699522660908	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofilenFHxcR"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699522663425	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699522663787	Marionette	INFO	Listening on port 60669
+Read port: 60669
+1699522664287	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+1699522673827	Marionette	INFO	Stopped listening on port 60669
+Dynamically enable window occlusion 1
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1699522689517	geckodriver	INFO	Listening on 127.0.0.1:60697
+1699522690063	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile1gESnA"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699522692371	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699522692780	Marionette	INFO	Listening on port 60704
+Read port: 60704
+1699522693452	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+1699522702579	Marionette	INFO	Stopped listening on port 60704
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+Dynamically enable window occlusion 1
+1699610588145	geckodriver	INFO	Listening on 127.0.0.1:64363
+1699610588700	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileHljJMx"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699610591392	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699610591809	Marionette	INFO	Listening on port 64370
+Read port: 64370
+1699610592454	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+1699610601539	Marionette	INFO	Stopped listening on port 64370
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+Dynamically enable window occlusion 1
+1699856174265	geckodriver	INFO	Listening on 127.0.0.1:58796
+1699856174777	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileLMGawW"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699856177157	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699856177685	Marionette	INFO	Listening on port 58803
+Read port: 58803
+1699856178363	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+1699856189008	Marionette	INFO	Stopped listening on port 58803
+Dynamically enable window occlusion 1
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1699857463328	geckodriver	INFO	Listening on 127.0.0.1:58873
+1699857463853	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileSTCp2R"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699857466061	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699857466429	Marionette	INFO	Listening on port 58880
+Read port: 58880
+1699857466944	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+1699857475196	Marionette	INFO	Stopped listening on port 58880
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+Dynamically enable window occlusion 1
+1699857499179	geckodriver	INFO	Listening on 127.0.0.1:58908
+1699857499723	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile2OR3Ou"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699857502189	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699857502522	Marionette	INFO	Listening on port 58915
+Read port: 58915
+1699857502994	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+1699857510876	Marionette	INFO	Stopped listening on port 58915
+Dynamically enable window occlusion 1
+1699857948365	geckodriver	INFO	Listening on 127.0.0.1:58962
+1699857948919	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileUv7IhO"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699857951269	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699857951588	Marionette	INFO	Listening on port 58969
+Read port: 58969
+1699857952124	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+1699857962190	Marionette	INFO	Stopped listening on port 58969
+Dynamically enable window occlusion 1
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1699859822009	geckodriver	INFO	Listening on 127.0.0.1:59080
+1699859822548	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileTk9hr2"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699859824931	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699859825278	Marionette	INFO	Listening on port 59087
+Read port: 59087
+1699859825744	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1699859841627	Marionette	INFO	Stopped listening on port 59087
+Dynamically enable window occlusion 1
+1699859903778	geckodriver	INFO	Listening on 127.0.0.1:59114
+1699859904327	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileeu9yaG"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699859906878	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699859907200	Marionette	INFO	Listening on port 59121
+Read port: 59121
+1699859907611	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1699859939225	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1699860133912	Marionette	INFO	Stopped listening on port 59121
+Dynamically enable window occlusion 1
+1699860449221	geckodriver	INFO	Listening on 127.0.0.1:59164
+1699860449750	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofilelZ1GQD"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699860452411	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699860452881	Marionette	INFO	Listening on port 59171
+Read port: 59171
+1699860453451	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1699860483463	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1699860704258	geckodriver	INFO	Listening on 127.0.0.1:59205
+1699860704794	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileaKnFvD"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699860707109	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699860707529	Marionette	INFO	Listening on port 59212
+Read port: 59212
+1699860708017	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1699860739997	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1699864689673	geckodriver	INFO	Listening on 127.0.0.1:59385
+1699864690242	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileyTlXp0"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699864692778	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699864693112	Marionette	INFO	Listening on port 59392
+Read port: 59392
+1699864693305	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1699864722882	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+1699864833826	Marionette	INFO	Stopped listening on port 59392
+Dynamically enable window occlusion 1
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1699865181158	geckodriver	INFO	Listening on 127.0.0.1:59445
+1699865181724	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileIh2WX9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699865184002	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699865184352	Marionette	INFO	Listening on port 59452
+Read port: 59452
+1699865184924	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+1699865211933	Marionette	INFO	Stopped listening on port 59452
+Dynamically enable window occlusion 1
+1699865254178	geckodriver	INFO	Listening on 127.0.0.1:59480
+1699865254716	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileLg2gr5"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699865256892	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699865257281	Marionette	INFO	Listening on port 59487
+Read port: 59487
+1699865257812	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+1699865268265	Marionette	INFO	Stopped listening on port 59487
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+Dynamically enable window occlusion 1
+1699865288435	geckodriver	INFO	Listening on 127.0.0.1:59514
+1699865288977	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileYaMKuB"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699865291449	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699865291774	Marionette	INFO	Listening on port 59521
+Read port: 59521
+1699865292293	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1699865321547	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+1699865410372	Marionette	INFO	Stopped listening on port 59521
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+Dynamically enable window occlusion 1
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1699865829600	geckodriver	INFO	Listening on 127.0.0.1:59565
+1699865830175	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileYsCeTs"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699865833405	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699865833920	Marionette	INFO	Listening on port 59572
+Read port: 59572
+1699865834586	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+1699865845580	Marionette	INFO	Stopped listening on port 59572
+Dynamically enable window occlusion 1
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1699865877061	geckodriver	INFO	Listening on 127.0.0.1:59600
+1699865877620	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile3XE20y"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699865880990	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699865881598	Marionette	INFO	Listening on port 59610
+Read port: 59610
+1699865881938	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+1699865892873	Marionette	INFO	Stopped listening on port 59610
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+Dynamically enable window occlusion 1
+1699866193822	geckodriver	INFO	Listening on 127.0.0.1:59649
+1699866194347	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofilefxUPyy"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699866197193	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699866197593	Marionette	INFO	Listening on port 59656
+Read port: 59656
+1699866197989	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+1699866209637	Marionette	INFO	Stopped listening on port 59656
+Dynamically enable window occlusion 1
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1699873402770	geckodriver	INFO	Listening on 127.0.0.1:60596
+1699873403255	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile7D81WO"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699873406089	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699873406623	Marionette	INFO	Listening on port 60603
+Read port: 60603
+1699873407431	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+1699873418688	Marionette	INFO	Stopped listening on port 60603
+Dynamically enable window occlusion 1
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1699873505070	geckodriver	INFO	Listening on 127.0.0.1:60698
+1699873505588	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileN6NfhF"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699873508491	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699873509007	Marionette	INFO	Listening on port 60705
+Read port: 60705
+1699873509896	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+1699873521404	Marionette	INFO	Stopped listening on port 60705
+Dynamically enable window occlusion 1
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1699874822485	geckodriver	INFO	Listening on 127.0.0.1:60789
+1699874823032	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofilegpeITw"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699874826095	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699874826611	Marionette	INFO	Listening on port 60796
+Read port: 60796
+1699874827475	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+1699874838242	Marionette	INFO	Stopped listening on port 60796
+Dynamically enable window occlusion 1
+1699874982329	geckodriver	INFO	Listening on 127.0.0.1:60830
+1699874982858	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile0paGrz"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699874985811	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699874986234	Marionette	INFO	Listening on port 60837
+Read port: 60837
+1699874986788	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+1699874997099	Marionette	INFO	Stopped listening on port 60837
+Dynamically enable window occlusion 1
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1699879204361	geckodriver	INFO	Listening on 127.0.0.1:61029
+1699879204863	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileiTnWYs"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699879207688	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699879208127	Marionette	INFO	Listening on port 61036
+Read port: 61036
+1699879208794	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+1699879218633	Marionette	INFO	Stopped listening on port 61036
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+Dynamically enable window occlusion 1
+1699887005909	geckodriver	INFO	Listening on 127.0.0.1:61600
+1699887006388	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileVpMM9C"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699887008680	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699887009021	Marionette	INFO	Listening on port 61607
+Read port: 61607
+1699887009447	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+1699887017938	Marionette	INFO	Stopped listening on port 61607
+Dynamically enable window occlusion 1
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1699887031118	geckodriver	INFO	Listening on 127.0.0.1:61637
+1699887031653	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileRLRjbS"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699887034001	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699887034358	Marionette	INFO	Listening on port 61644
+Read port: 61644
+1699887034886	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+1699887043114	Marionette	INFO	Stopped listening on port 61644
+Dynamically enable window occlusion 1
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1699887772496	geckodriver	INFO	Listening on 127.0.0.1:61706
+1699887773008	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile8LgxIf"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699887775499	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699887775885	Marionette	INFO	Listening on port 61713
+Read port: 61713
+1699887776393	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+1699887784248	Marionette	INFO	Stopped listening on port 61713
+Dynamically enable window occlusion 1
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1699887894139	geckodriver	INFO	Listening on 127.0.0.1:61746
+1699887894662	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile3Sw4Jw"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699887896881	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699887897188	Marionette	INFO	Listening on port 61753
+Read port: 61753
+1699887897673	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+1699887905208	Marionette	INFO	Stopped listening on port 61753
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+Dynamically enable window occlusion 1
+1699888984679	geckodriver	INFO	Listening on 127.0.0.1:61817
+1699888985187	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile78XWNP"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699888987304	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699888987762	Marionette	INFO	Listening on port 61824
+Read port: 61824
+1699888988219	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+1699888996070	Marionette	INFO	Stopped listening on port 61824
+Dynamically enable window occlusion 1
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1699889025104	geckodriver	INFO	Listening on 127.0.0.1:61852
+1699889025639	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileGXzYPf"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699889027781	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699889028116	Marionette	INFO	Listening on port 61859
+Read port: 61859
+1699889028695	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+1699889036890	Marionette	INFO	Stopped listening on port 61859
+Dynamically enable window occlusion 1
+1699889531134	geckodriver	INFO	Listening on 127.0.0.1:61910
+1699889531655	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileYfgXPM"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699889534126	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699889534464	Marionette	INFO	Listening on port 61917
+Read port: 61917
+1699889534999	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+1699889543389	Marionette	INFO	Stopped listening on port 61917
+Dynamically enable window occlusion 1
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt

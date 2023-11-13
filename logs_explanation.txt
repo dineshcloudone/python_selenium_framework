@@ -1,0 +1,11 @@
+warn>debug>info>error>fatal
+
+if you choose warn, we will get all debug, info,error and fatal information.
+
+
+command to run multibrowser
+pytest -sv ./testcases/test_001_AccountRegistration.py --browser firefox
+
+
+command to get html reports
+pytest -s -v --html=reports\report.html --capture=tee-sys ./testcases/test_001_AccountRegistration.py --browser firefox
