@@ -1,763 +1,370 @@
-====== WebDriver manager ======
-Current edge version is 119.0.2151
-Get LATEST edgedriver version for 119.0.2151 Edge
-Starting new HTTPS connection (1): msedgedriver.azureedge.net:443
-https://msedgedriver.azureedge.net:443 "GET /LATEST_RELEASE_119_WINDOWS HTTP/1.1" 200 32
-Encoding detection: utf_16 is most likely the one as we detected a BOM or SIG within the beginning of the sequence.
-Driver [C:\Users\Administrator\.wdm\drivers\edgedriver\win64\119.0.2151.58\msedgedriver.exe] found in cache
-POST http://localhost:61478/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "MicrosoftEdge", "platformName": "windows"}}, "desiredCapabilities": {"browserName": "MicrosoftEdge", "version": "", "platform": "WINDOWS"}}
-Starting new HTTP connection (1): localhost:61478
-http://localhost:61478 "POST /session HTTP/1.1" 200 831
-Finished Request
 **** test_001_AccountRegistration started ****
-POST http://localhost:61478/session/7857a6acff63a5cc3d0053bc238a5125/url {"url": "https://demo.opencart.com/"}
-Starting new HTTP connection (1): localhost:61478
-http://localhost:61478 "POST /session/7857a6acff63a5cc3d0053bc238a5125/url HTTP/1.1" 200 14
-Finished Request
-**** Launching application ****
-POST http://localhost:61478/session/7857a6acff63a5cc3d0053bc238a5125/window/maximize {}
-Starting new HTTP connection (1): localhost:61478
-http://localhost:61478 "POST /session/7857a6acff63a5cc3d0053bc238a5125/window/maximize HTTP/1.1" 200 51
-Finished Request
-**** clicking on MyAccount registration ****
-POST http://localhost:61478/session/7857a6acff63a5cc3d0053bc238a5125/element {"using": "xpath", "value": "//div[@class='dropdown']//span[text()='My Account']"}
-Starting new HTTP connection (1): localhost:61478
-http://localhost:61478 "POST /session/7857a6acff63a5cc3d0053bc238a5125/element HTTP/1.1" 200 95
-Finished Request
-POST http://localhost:61478/session/7857a6acff63a5cc3d0053bc238a5125/element/507B384F685E28D58DF001F4B66B38A6_element_54/click {"id": "507B384F685E28D58DF001F4B66B38A6_element_54"}
-Starting new HTTP connection (1): localhost:61478
-http://localhost:61478 "POST /session/7857a6acff63a5cc3d0053bc238a5125/element/507B384F685E28D58DF001F4B66B38A6_element_54/click HTTP/1.1" 200 14
-Finished Request
-POST http://localhost:61478/session/7857a6acff63a5cc3d0053bc238a5125/element {"using": "link text", "value": "Register"}
-Starting new HTTP connection (1): localhost:61478
-http://localhost:61478 "POST /session/7857a6acff63a5cc3d0053bc238a5125/element HTTP/1.1" 200 95
-Finished Request
-POST http://localhost:61478/session/7857a6acff63a5cc3d0053bc238a5125/element/507B384F685E28D58DF001F4B66B38A6_element_55/click {"id": "507B384F685E28D58DF001F4B66B38A6_element_55"}
-Starting new HTTP connection (1): localhost:61478
-http://localhost:61478 "POST /session/7857a6acff63a5cc3d0053bc238a5125/element/507B384F685E28D58DF001F4B66B38A6_element_55/click HTTP/1.1" 200 14
-Finished Request
-POST http://localhost:61478/session/7857a6acff63a5cc3d0053bc238a5125/element {"using": "css selector", "value": "[name=\"firstname\"]"}
-Starting new HTTP connection (1): localhost:61478
-http://localhost:61478 "POST /session/7857a6acff63a5cc3d0053bc238a5125/element HTTP/1.1" 200 95
-Finished Request
-POST http://localhost:61478/session/7857a6acff63a5cc3d0053bc238a5125/element/4D76CFC7F9E72A2306A52E62777DB38B_element_64/value {"text": "John", "value": ["J", "o", "h", "n"], "id": "4D76CFC7F9E72A2306A52E62777DB38B_element_64"}
-Starting new HTTP connection (1): localhost:61478
-http://localhost:61478 "POST /session/7857a6acff63a5cc3d0053bc238a5125/element/4D76CFC7F9E72A2306A52E62777DB38B_element_64/value HTTP/1.1" 200 14
-Finished Request
-POST http://localhost:61478/session/7857a6acff63a5cc3d0053bc238a5125/element {"using": "css selector", "value": "[name=\"lastname\"]"}
-Starting new HTTP connection (1): localhost:61478
-http://localhost:61478 "POST /session/7857a6acff63a5cc3d0053bc238a5125/element HTTP/1.1" 200 95
-Finished Request
-POST http://localhost:61478/session/7857a6acff63a5cc3d0053bc238a5125/element/4D76CFC7F9E72A2306A52E62777DB38B_element_69/value {"text": "Canedy", "value": ["C", "a", "n", "e", "d", "y"], "id": "4D76CFC7F9E72A2306A52E62777DB38B_element_69"}
-Starting new HTTP connection (1): localhost:61478
-http://localhost:61478 "POST /session/7857a6acff63a5cc3d0053bc238a5125/element/4D76CFC7F9E72A2306A52E62777DB38B_element_69/value HTTP/1.1" 200 14
-Finished Request
-POST http://localhost:61478/session/7857a6acff63a5cc3d0053bc238a5125/element {"using": "css selector", "value": "[name=\"email\"]"}
-Starting new HTTP connection (1): localhost:61478
-http://localhost:61478 "POST /session/7857a6acff63a5cc3d0053bc238a5125/element HTTP/1.1" 200 95
-Finished Request
-POST http://localhost:61478/session/7857a6acff63a5cc3d0053bc238a5125/element/4D76CFC7F9E72A2306A52E62777DB38B_element_59/value {"text": "lsxr8@gmail.com", "value": ["l", "s", "x", "r", "8", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"], "id": "4D76CFC7F9E72A2306A52E62777DB38B_element_59"}
-Starting new HTTP connection (1): localhost:61478
-http://localhost:61478 "POST /session/7857a6acff63a5cc3d0053bc238a5125/element/4D76CFC7F9E72A2306A52E62777DB38B_element_59/value HTTP/1.1" 200 14
-Finished Request
-POST http://localhost:61478/session/7857a6acff63a5cc3d0053bc238a5125/element {"using": "css selector", "value": "[name=\"password\"]"}
-Starting new HTTP connection (1): localhost:61478
-http://localhost:61478 "POST /session/7857a6acff63a5cc3d0053bc238a5125/element HTTP/1.1" 200 95
-Finished Request
-POST http://localhost:61478/session/7857a6acff63a5cc3d0053bc238a5125/element/4D76CFC7F9E72A2306A52E62777DB38B_element_60/value {"text": "abcxyz", "value": ["a", "b", "c", "x", "y", "z"], "id": "4D76CFC7F9E72A2306A52E62777DB38B_element_60"}
-Starting new HTTP connection (1): localhost:61478
-http://localhost:61478 "POST /session/7857a6acff63a5cc3d0053bc238a5125/element/4D76CFC7F9E72A2306A52E62777DB38B_element_60/value HTTP/1.1" 200 14
-Finished Request
-POST http://localhost:61478/session/7857a6acff63a5cc3d0053bc238a5125/element {"using": "css selector", "value": "[name=\"agree\"]"}
-Starting new HTTP connection (1): localhost:61478
-http://localhost:61478 "POST /session/7857a6acff63a5cc3d0053bc238a5125/element HTTP/1.1" 200 95
-Finished Request
-POST http://localhost:61478/session/7857a6acff63a5cc3d0053bc238a5125/element/4D76CFC7F9E72A2306A52E62777DB38B_element_74/click {"id": "4D76CFC7F9E72A2306A52E62777DB38B_element_74"}
-Starting new HTTP connection (1): localhost:61478
-http://localhost:61478 "POST /session/7857a6acff63a5cc3d0053bc238a5125/element/4D76CFC7F9E72A2306A52E62777DB38B_element_74/click HTTP/1.1" 200 14
-Finished Request
-POST http://localhost:61478/session/7857a6acff63a5cc3d0053bc238a5125/element {"using": "xpath", "value": "//button[text()='Continue']"}
-Starting new HTTP connection (1): localhost:61478
-http://localhost:61478 "POST /session/7857a6acff63a5cc3d0053bc238a5125/element HTTP/1.1" 200 95
-Finished Request
-POST http://localhost:61478/session/7857a6acff63a5cc3d0053bc238a5125/element/4D76CFC7F9E72A2306A52E62777DB38B_element_76/click {"id": "4D76CFC7F9E72A2306A52E62777DB38B_element_76"}
-Starting new HTTP connection (1): localhost:61478
-http://localhost:61478 "POST /session/7857a6acff63a5cc3d0053bc238a5125/element/4D76CFC7F9E72A2306A52E62777DB38B_element_76/click HTTP/1.1" 200 14
-Finished Request
-POST http://localhost:61478/session/7857a6acff63a5cc3d0053bc238a5125/element {"using": "xpath", "value": "//h1[normalize-space()='Your Account Has Been Created!']"}
-Starting new HTTP connection (1): localhost:61478
-http://localhost:61478 "POST /session/7857a6acff63a5cc3d0053bc238a5125/element HTTP/1.1" 404 1655
-Finished Request
-GET http://localhost:61478/session/7857a6acff63a5cc3d0053bc238a5125/screenshot {}
-Starting new HTTP connection (1): localhost:61478
-http://localhost:61478 "GET /session/7857a6acff63a5cc3d0053bc238a5125/screenshot HTTP/1.1" 200 82076
-Finished Request
-Account registration is failed...
-DELETE http://localhost:61478/session/7857a6acff63a5cc3d0053bc238a5125/window {}
-Starting new HTTP connection (1): localhost:61478
-http://localhost:61478 "DELETE /session/7857a6acff63a5cc3d0053bc238a5125/window HTTP/1.1" 200 12
-Finished Request
 ====== WebDriver manager ======
-Current edge version is 119.0.2151
-Get LATEST edgedriver version for 119.0.2151 Edge
-Starting new HTTPS connection (1): msedgedriver.azureedge.net:443
-https://msedgedriver.azureedge.net:443 "GET /LATEST_RELEASE_119_WINDOWS HTTP/1.1" 200 32
-Encoding detection: utf_16 is most likely the one as we detected a BOM or SIG within the beginning of the sequence.
-Driver [C:\Users\Administrator\.wdm\drivers\edgedriver\win64\119.0.2151.58\msedgedriver.exe] found in cache
-POST http://localhost:61528/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "MicrosoftEdge", "platformName": "windows"}}, "desiredCapabilities": {"browserName": "MicrosoftEdge", "version": "", "platform": "WINDOWS"}}
-Starting new HTTP connection (1): localhost:61528
-http://localhost:61528 "POST /session HTTP/1.1" 200 830
-Finished Request
-**** test_001_AccountRegistration started ****
-POST http://localhost:61528/session/b55148398bd4bc802cf554c8151e54a3/url {"url": "https://demo.opencart.com/"}
-Starting new HTTP connection (1): localhost:61528
-http://localhost:61528 "POST /session/b55148398bd4bc802cf554c8151e54a3/url HTTP/1.1" 200 14
-Finished Request
-**** Launching application ****
-POST http://localhost:61528/session/b55148398bd4bc802cf554c8151e54a3/window/maximize {}
-Starting new HTTP connection (1): localhost:61528
-http://localhost:61528 "POST /session/b55148398bd4bc802cf554c8151e54a3/window/maximize HTTP/1.1" 200 51
-Finished Request
-**** clicking on MyAccount registration ****
-POST http://localhost:61528/session/b55148398bd4bc802cf554c8151e54a3/element {"using": "xpath", "value": "//div[@class='dropdown']//span[text()='My Account']"}
-Starting new HTTP connection (1): localhost:61528
-http://localhost:61528 "POST /session/b55148398bd4bc802cf554c8151e54a3/element HTTP/1.1" 200 95
-Finished Request
-POST http://localhost:61528/session/b55148398bd4bc802cf554c8151e54a3/element/6A14D06EA82909AC8F98AA9843C436D3_element_54/click {"id": "6A14D06EA82909AC8F98AA9843C436D3_element_54"}
-Starting new HTTP connection (1): localhost:61528
-http://localhost:61528 "POST /session/b55148398bd4bc802cf554c8151e54a3/element/6A14D06EA82909AC8F98AA9843C436D3_element_54/click HTTP/1.1" 200 14
-Finished Request
-POST http://localhost:61528/session/b55148398bd4bc802cf554c8151e54a3/element {"using": "link text", "value": "Register"}
-Starting new HTTP connection (1): localhost:61528
-http://localhost:61528 "POST /session/b55148398bd4bc802cf554c8151e54a3/element HTTP/1.1" 200 95
-Finished Request
-POST http://localhost:61528/session/b55148398bd4bc802cf554c8151e54a3/element/6A14D06EA82909AC8F98AA9843C436D3_element_55/click {"id": "6A14D06EA82909AC8F98AA9843C436D3_element_55"}
-Starting new HTTP connection (1): localhost:61528
-http://localhost:61528 "POST /session/b55148398bd4bc802cf554c8151e54a3/element/6A14D06EA82909AC8F98AA9843C436D3_element_55/click HTTP/1.1" 200 14
-Finished Request
-POST http://localhost:61528/session/b55148398bd4bc802cf554c8151e54a3/element {"using": "css selector", "value": "[name=\"firstname\"]"}
-Starting new HTTP connection (1): localhost:61528
-http://localhost:61528 "POST /session/b55148398bd4bc802cf554c8151e54a3/element HTTP/1.1" 200 95
-Finished Request
-POST http://localhost:61528/session/b55148398bd4bc802cf554c8151e54a3/element/F22878C9B941241E955401379644F52D_element_64/value {"text": "John", "value": ["J", "o", "h", "n"], "id": "F22878C9B941241E955401379644F52D_element_64"}
-Starting new HTTP connection (1): localhost:61528
-http://localhost:61528 "POST /session/b55148398bd4bc802cf554c8151e54a3/element/F22878C9B941241E955401379644F52D_element_64/value HTTP/1.1" 200 14
-Finished Request
-POST http://localhost:61528/session/b55148398bd4bc802cf554c8151e54a3/element {"using": "css selector", "value": "[name=\"lastname\"]"}
-Starting new HTTP connection (1): localhost:61528
-http://localhost:61528 "POST /session/b55148398bd4bc802cf554c8151e54a3/element HTTP/1.1" 200 95
-Finished Request
-POST http://localhost:61528/session/b55148398bd4bc802cf554c8151e54a3/element/F22878C9B941241E955401379644F52D_element_69/value {"text": "Canedy", "value": ["C", "a", "n", "e", "d", "y"], "id": "F22878C9B941241E955401379644F52D_element_69"}
-Starting new HTTP connection (1): localhost:61528
-http://localhost:61528 "POST /session/b55148398bd4bc802cf554c8151e54a3/element/F22878C9B941241E955401379644F52D_element_69/value HTTP/1.1" 200 14
-Finished Request
-POST http://localhost:61528/session/b55148398bd4bc802cf554c8151e54a3/element {"using": "css selector", "value": "[name=\"email\"]"}
-Starting new HTTP connection (1): localhost:61528
-http://localhost:61528 "POST /session/b55148398bd4bc802cf554c8151e54a3/element HTTP/1.1" 200 95
-Finished Request
-POST http://localhost:61528/session/b55148398bd4bc802cf554c8151e54a3/element/F22878C9B941241E955401379644F52D_element_62/value {"text": "cezpf@gmail.com", "value": ["c", "e", "z", "p", "f", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"], "id": "F22878C9B941241E955401379644F52D_element_62"}
-Starting new HTTP connection (1): localhost:61528
-http://localhost:61528 "POST /session/b55148398bd4bc802cf554c8151e54a3/element/F22878C9B941241E955401379644F52D_element_62/value HTTP/1.1" 200 14
-Finished Request
-POST http://localhost:61528/session/b55148398bd4bc802cf554c8151e54a3/element {"using": "css selector", "value": "[name=\"password\"]"}
-Starting new HTTP connection (1): localhost:61528
-http://localhost:61528 "POST /session/b55148398bd4bc802cf554c8151e54a3/element HTTP/1.1" 200 95
-Finished Request
-POST http://localhost:61528/session/b55148398bd4bc802cf554c8151e54a3/element/F22878C9B941241E955401379644F52D_element_63/value {"text": "abcxyz", "value": ["a", "b", "c", "x", "y", "z"], "id": "F22878C9B941241E955401379644F52D_element_63"}
-Starting new HTTP connection (1): localhost:61528
-http://localhost:61528 "POST /session/b55148398bd4bc802cf554c8151e54a3/element/F22878C9B941241E955401379644F52D_element_63/value HTTP/1.1" 200 14
-Finished Request
-POST http://localhost:61528/session/b55148398bd4bc802cf554c8151e54a3/element {"using": "css selector", "value": "[name=\"agree\"]"}
-Starting new HTTP connection (1): localhost:61528
-http://localhost:61528 "POST /session/b55148398bd4bc802cf554c8151e54a3/element HTTP/1.1" 200 95
-Finished Request
-POST http://localhost:61528/session/b55148398bd4bc802cf554c8151e54a3/element/F22878C9B941241E955401379644F52D_element_74/click {"id": "F22878C9B941241E955401379644F52D_element_74"}
-Starting new HTTP connection (1): localhost:61528
-http://localhost:61528 "POST /session/b55148398bd4bc802cf554c8151e54a3/element/F22878C9B941241E955401379644F52D_element_74/click HTTP/1.1" 200 14
-Finished Request
-POST http://localhost:61528/session/b55148398bd4bc802cf554c8151e54a3/element {"using": "xpath", "value": "//button[text()='Continue']"}
-Starting new HTTP connection (1): localhost:61528
-http://localhost:61528 "POST /session/b55148398bd4bc802cf554c8151e54a3/element HTTP/1.1" 200 95
-Finished Request
-POST http://localhost:61528/session/b55148398bd4bc802cf554c8151e54a3/element/F22878C9B941241E955401379644F52D_element_76/click {"id": "F22878C9B941241E955401379644F52D_element_76"}
-Starting new HTTP connection (1): localhost:61528
-http://localhost:61528 "POST /session/b55148398bd4bc802cf554c8151e54a3/element/F22878C9B941241E955401379644F52D_element_76/click HTTP/1.1" 200 14
-Finished Request
-POST http://localhost:61528/session/b55148398bd4bc802cf554c8151e54a3/element {"using": "xpath", "value": "//h1[normalize-space()='Your Account Has Been Created!']"}
-Starting new HTTP connection (1): localhost:61528
-http://localhost:61528 "POST /session/b55148398bd4bc802cf554c8151e54a3/element HTTP/1.1" 404 1655
-Finished Request
-GET http://localhost:61528/session/b55148398bd4bc802cf554c8151e54a3/screenshot {}
-Starting new HTTP connection (1): localhost:61528
-http://localhost:61528 "GET /session/b55148398bd4bc802cf554c8151e54a3/screenshot HTTP/1.1" 200 82068
-Finished Request
-Account registration is failed...
-DELETE http://localhost:61528/session/b55148398bd4bc802cf554c8151e54a3/window {}
-Starting new HTTP connection (1): localhost:61528
-http://localhost:61528 "DELETE /session/b55148398bd4bc802cf554c8151e54a3/window HTTP/1.1" 200 12
-Finished Request
-====== WebDriver manager ======
-Current firefox version is 119.0
-Get LATEST geckodriver version for 119.0 firefox
+Current firefox version is 120.0
+Get LATEST geckodriver version for 120.0 firefox
 Starting new HTTPS connection (1): api.github.com:443
 https://api.github.com:443 "GET /repos/mozilla/geckodriver/releases/latest HTTP/1.1" 200 2739
-Driver [C:\Users\Administrator\.wdm\drivers\geckodriver\win64\v0.33.0\geckodriver.exe] found in cache
-====== WebDriver manager ======
-Current firefox version is 119.0
-Get LATEST geckodriver version for 119.0 firefox
-Starting new HTTPS connection (1): api.github.com:443
-https://api.github.com:443 "GET /repos/mozilla/geckodriver/releases/latest HTTP/1.1" 200 2738
-Driver [C:\Users\Administrator\.wdm\drivers\geckodriver\win64\v0.33.0\geckodriver.exe] found in cache
-====== WebDriver manager ======
-Current firefox version is 119.0
-Get LATEST geckodriver version for 119.0 firefox
-Starting new HTTPS connection (1): api.github.com:443
-https://api.github.com:443 "GET /repos/mozilla/geckodriver/releases/latest HTTP/1.1" 200 2734
-Driver [C:\Users\Administrator\.wdm\drivers\geckodriver\win64\v0.33.0\geckodriver.exe] found in cache
-POST http://127.0.0.1:61600/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "firefox", "acceptInsecureCerts": true}}, "desiredCapabilities": {"browserName": "firefox", "acceptInsecureCerts": true, "marionette": true}}
-Starting new HTTP connection (1): 127.0.0.1:61600
-http://127.0.0.1:61600 "POST /session HTTP/1.1" 200 708
-Finished Request
-**** test_001_AccountRegistration started ****
-POST http://127.0.0.1:61600/session/34aae2c9-8b17-4f91-8c6d-e16727ab39d9/url {"url": "https://demo.opencart.com/"}
-http://127.0.0.1:61600 "POST /session/34aae2c9-8b17-4f91-8c6d-e16727ab39d9/url HTTP/1.1" 200 14
-Finished Request
-**** Launching application ****
-POST http://127.0.0.1:61600/session/34aae2c9-8b17-4f91-8c6d-e16727ab39d9/window/maximize {}
-http://127.0.0.1:61600 "POST /session/34aae2c9-8b17-4f91-8c6d-e16727ab39d9/window/maximize HTTP/1.1" 200 51
-Finished Request
-**** clicking on MyAccount registration ****
-POST http://127.0.0.1:61600/session/34aae2c9-8b17-4f91-8c6d-e16727ab39d9/element {"using": "xpath", "value": "//div[@class='dropdown']//span[text()='My Account']"}
-http://127.0.0.1:61600 "POST /session/34aae2c9-8b17-4f91-8c6d-e16727ab39d9/element HTTP/1.1" 200 88
-Finished Request
-POST http://127.0.0.1:61600/session/34aae2c9-8b17-4f91-8c6d-e16727ab39d9/element/1303cbc4-0579-4476-861a-d1dfabf3b331/click {"id": "1303cbc4-0579-4476-861a-d1dfabf3b331"}
-http://127.0.0.1:61600 "POST /session/34aae2c9-8b17-4f91-8c6d-e16727ab39d9/element/1303cbc4-0579-4476-861a-d1dfabf3b331/click HTTP/1.1" 200 14
-Finished Request
-POST http://127.0.0.1:61600/session/34aae2c9-8b17-4f91-8c6d-e16727ab39d9/element {"using": "link text", "value": "Register"}
-http://127.0.0.1:61600 "POST /session/34aae2c9-8b17-4f91-8c6d-e16727ab39d9/element HTTP/1.1" 200 88
-Finished Request
-POST http://127.0.0.1:61600/session/34aae2c9-8b17-4f91-8c6d-e16727ab39d9/element/66fb88e9-aa98-4a7f-8b5b-8ed74f2082d9/click {"id": "66fb88e9-aa98-4a7f-8b5b-8ed74f2082d9"}
-http://127.0.0.1:61600 "POST /session/34aae2c9-8b17-4f91-8c6d-e16727ab39d9/element/66fb88e9-aa98-4a7f-8b5b-8ed74f2082d9/click HTTP/1.1" 200 14
-Finished Request
-POST http://127.0.0.1:61600/session/34aae2c9-8b17-4f91-8c6d-e16727ab39d9/element {"using": "css selector", "value": "[name=\"firstname\"]"}
-http://127.0.0.1:61600 "POST /session/34aae2c9-8b17-4f91-8c6d-e16727ab39d9/element HTTP/1.1" 200 88
-Finished Request
-POST http://127.0.0.1:61600/session/34aae2c9-8b17-4f91-8c6d-e16727ab39d9/element/457e8ad1-96ec-4532-9b1e-272e652af8d5/value {"text": "John", "value": ["J", "o", "h", "n"], "id": "457e8ad1-96ec-4532-9b1e-272e652af8d5"}
-http://127.0.0.1:61600 "POST /session/34aae2c9-8b17-4f91-8c6d-e16727ab39d9/element/457e8ad1-96ec-4532-9b1e-272e652af8d5/value HTTP/1.1" 200 14
-Finished Request
-POST http://127.0.0.1:61600/session/34aae2c9-8b17-4f91-8c6d-e16727ab39d9/element {"using": "css selector", "value": "[name=\"lastname\"]"}
-http://127.0.0.1:61600 "POST /session/34aae2c9-8b17-4f91-8c6d-e16727ab39d9/element HTTP/1.1" 200 88
-Finished Request
-POST http://127.0.0.1:61600/session/34aae2c9-8b17-4f91-8c6d-e16727ab39d9/element/2fb1856a-5c2d-4faf-957e-5c5a50001703/value {"text": "Canedy", "value": ["C", "a", "n", "e", "d", "y"], "id": "2fb1856a-5c2d-4faf-957e-5c5a50001703"}
-http://127.0.0.1:61600 "POST /session/34aae2c9-8b17-4f91-8c6d-e16727ab39d9/element/2fb1856a-5c2d-4faf-957e-5c5a50001703/value HTTP/1.1" 200 14
-Finished Request
-POST http://127.0.0.1:61600/session/34aae2c9-8b17-4f91-8c6d-e16727ab39d9/element {"using": "css selector", "value": "[name=\"email\"]"}
-http://127.0.0.1:61600 "POST /session/34aae2c9-8b17-4f91-8c6d-e16727ab39d9/element HTTP/1.1" 200 88
-Finished Request
-POST http://127.0.0.1:61600/session/34aae2c9-8b17-4f91-8c6d-e16727ab39d9/element/150ff7f5-0197-4dd4-9e26-7421bf204ebd/value {"text": "7x8zy@gmail.com", "value": ["7", "x", "8", "z", "y", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"], "id": "150ff7f5-0197-4dd4-9e26-7421bf204ebd"}
-http://127.0.0.1:61600 "POST /session/34aae2c9-8b17-4f91-8c6d-e16727ab39d9/element/150ff7f5-0197-4dd4-9e26-7421bf204ebd/value HTTP/1.1" 200 14
-Finished Request
-POST http://127.0.0.1:61600/session/34aae2c9-8b17-4f91-8c6d-e16727ab39d9/element {"using": "css selector", "value": "[name=\"password\"]"}
-http://127.0.0.1:61600 "POST /session/34aae2c9-8b17-4f91-8c6d-e16727ab39d9/element HTTP/1.1" 200 88
-Finished Request
-POST http://127.0.0.1:61600/session/34aae2c9-8b17-4f91-8c6d-e16727ab39d9/element/25f17543-8e5d-46ba-8673-cbc60a48b78b/value {"text": "abcxyz", "value": ["a", "b", "c", "x", "y", "z"], "id": "25f17543-8e5d-46ba-8673-cbc60a48b78b"}
-http://127.0.0.1:61600 "POST /session/34aae2c9-8b17-4f91-8c6d-e16727ab39d9/element/25f17543-8e5d-46ba-8673-cbc60a48b78b/value HTTP/1.1" 200 14
-Finished Request
-POST http://127.0.0.1:61600/session/34aae2c9-8b17-4f91-8c6d-e16727ab39d9/element {"using": "css selector", "value": "[name=\"agree\"]"}
-http://127.0.0.1:61600 "POST /session/34aae2c9-8b17-4f91-8c6d-e16727ab39d9/element HTTP/1.1" 200 88
-Finished Request
-POST http://127.0.0.1:61600/session/34aae2c9-8b17-4f91-8c6d-e16727ab39d9/element/8465e4e2-9540-4f4d-b163-e8ef3250dfa2/click {"id": "8465e4e2-9540-4f4d-b163-e8ef3250dfa2"}
-http://127.0.0.1:61600 "POST /session/34aae2c9-8b17-4f91-8c6d-e16727ab39d9/element/8465e4e2-9540-4f4d-b163-e8ef3250dfa2/click HTTP/1.1" 200 14
-Finished Request
-POST http://127.0.0.1:61600/session/34aae2c9-8b17-4f91-8c6d-e16727ab39d9/element {"using": "xpath", "value": "//button[text()='Continue']"}
-http://127.0.0.1:61600 "POST /session/34aae2c9-8b17-4f91-8c6d-e16727ab39d9/element HTTP/1.1" 200 88
-Finished Request
-POST http://127.0.0.1:61600/session/34aae2c9-8b17-4f91-8c6d-e16727ab39d9/element/2f7b9b70-0fc5-4b46-846d-313b7e5e845a/click {"id": "2f7b9b70-0fc5-4b46-846d-313b7e5e845a"}
-http://127.0.0.1:61600 "POST /session/34aae2c9-8b17-4f91-8c6d-e16727ab39d9/element/2f7b9b70-0fc5-4b46-846d-313b7e5e845a/click HTTP/1.1" 200 14
-Finished Request
-POST http://127.0.0.1:61600/session/34aae2c9-8b17-4f91-8c6d-e16727ab39d9/element {"using": "xpath", "value": "//h1[normalize-space()='Your Account Has Been Created!']"}
-http://127.0.0.1:61600 "POST /session/34aae2c9-8b17-4f91-8c6d-e16727ab39d9/element HTTP/1.1" 404 440
-Finished Request
-GET http://127.0.0.1:61600/session/34aae2c9-8b17-4f91-8c6d-e16727ab39d9/screenshot {}
-http://127.0.0.1:61600 "GET /session/34aae2c9-8b17-4f91-8c6d-e16727ab39d9/screenshot HTTP/1.1" 200 177284
-Finished Request
-Account registration is failed...
-DELETE http://127.0.0.1:61600/session/34aae2c9-8b17-4f91-8c6d-e16727ab39d9/window {}
-http://127.0.0.1:61600 "DELETE /session/34aae2c9-8b17-4f91-8c6d-e16727ab39d9/window HTTP/1.1" 200 12
-Finished Request
-====== WebDriver manager ======
-Current firefox version is 119.0
-Get LATEST geckodriver version for 119.0 firefox
-Starting new HTTPS connection (1): api.github.com:443
-https://api.github.com:443 "GET /repos/mozilla/geckodriver/releases/latest HTTP/1.1" 200 2741
-Driver [C:\Users\Administrator\.wdm\drivers\geckodriver\win64\v0.33.0\geckodriver.exe] found in cache
-POST http://127.0.0.1:61637/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "firefox", "acceptInsecureCerts": true}}, "desiredCapabilities": {"browserName": "firefox", "acceptInsecureCerts": true, "marionette": true}}
-Starting new HTTP connection (1): 127.0.0.1:61637
-http://127.0.0.1:61637 "POST /session HTTP/1.1" 200 708
-Finished Request
-**** test_001_AccountRegistration started ****
-POST http://127.0.0.1:61637/session/92274fea-f903-4e17-8583-c4a68ad5ca83/url {"url": "https://demo.opencart.com/"}
-http://127.0.0.1:61637 "POST /session/92274fea-f903-4e17-8583-c4a68ad5ca83/url HTTP/1.1" 200 14
-Finished Request
-**** Launching application ****
-POST http://127.0.0.1:61637/session/92274fea-f903-4e17-8583-c4a68ad5ca83/window/maximize {}
-http://127.0.0.1:61637 "POST /session/92274fea-f903-4e17-8583-c4a68ad5ca83/window/maximize HTTP/1.1" 200 51
-Finished Request
-**** clicking on MyAccount registration ****
-POST http://127.0.0.1:61637/session/92274fea-f903-4e17-8583-c4a68ad5ca83/element {"using": "xpath", "value": "//div[@class='dropdown']//span[text()='My Account']"}
-http://127.0.0.1:61637 "POST /session/92274fea-f903-4e17-8583-c4a68ad5ca83/element HTTP/1.1" 200 88
-Finished Request
-POST http://127.0.0.1:61637/session/92274fea-f903-4e17-8583-c4a68ad5ca83/element/9044eb05-009e-4897-bc61-418f26cc8bcb/click {"id": "9044eb05-009e-4897-bc61-418f26cc8bcb"}
-http://127.0.0.1:61637 "POST /session/92274fea-f903-4e17-8583-c4a68ad5ca83/element/9044eb05-009e-4897-bc61-418f26cc8bcb/click HTTP/1.1" 200 14
-Finished Request
-POST http://127.0.0.1:61637/session/92274fea-f903-4e17-8583-c4a68ad5ca83/element {"using": "link text", "value": "Register"}
-http://127.0.0.1:61637 "POST /session/92274fea-f903-4e17-8583-c4a68ad5ca83/element HTTP/1.1" 200 88
-Finished Request
-POST http://127.0.0.1:61637/session/92274fea-f903-4e17-8583-c4a68ad5ca83/element/5bd30b3e-c25e-47a0-8c88-1e074f16549f/click {"id": "5bd30b3e-c25e-47a0-8c88-1e074f16549f"}
-http://127.0.0.1:61637 "POST /session/92274fea-f903-4e17-8583-c4a68ad5ca83/element/5bd30b3e-c25e-47a0-8c88-1e074f16549f/click HTTP/1.1" 200 14
-Finished Request
-POST http://127.0.0.1:61637/session/92274fea-f903-4e17-8583-c4a68ad5ca83/element {"using": "css selector", "value": "[name=\"firstname\"]"}
-http://127.0.0.1:61637 "POST /session/92274fea-f903-4e17-8583-c4a68ad5ca83/element HTTP/1.1" 200 88
-Finished Request
-POST http://127.0.0.1:61637/session/92274fea-f903-4e17-8583-c4a68ad5ca83/element/315bc875-3775-47ad-968e-bc8d8c9b84d9/value {"text": "John", "value": ["J", "o", "h", "n"], "id": "315bc875-3775-47ad-968e-bc8d8c9b84d9"}
-http://127.0.0.1:61637 "POST /session/92274fea-f903-4e17-8583-c4a68ad5ca83/element/315bc875-3775-47ad-968e-bc8d8c9b84d9/value HTTP/1.1" 200 14
-Finished Request
-POST http://127.0.0.1:61637/session/92274fea-f903-4e17-8583-c4a68ad5ca83/element {"using": "css selector", "value": "[name=\"lastname\"]"}
-http://127.0.0.1:61637 "POST /session/92274fea-f903-4e17-8583-c4a68ad5ca83/element HTTP/1.1" 200 88
-Finished Request
-POST http://127.0.0.1:61637/session/92274fea-f903-4e17-8583-c4a68ad5ca83/element/da7a970d-89c9-4e86-bf89-133c09e39255/value {"text": "Canedy", "value": ["C", "a", "n", "e", "d", "y"], "id": "da7a970d-89c9-4e86-bf89-133c09e39255"}
-http://127.0.0.1:61637 "POST /session/92274fea-f903-4e17-8583-c4a68ad5ca83/element/da7a970d-89c9-4e86-bf89-133c09e39255/value HTTP/1.1" 200 14
-Finished Request
-POST http://127.0.0.1:61637/session/92274fea-f903-4e17-8583-c4a68ad5ca83/element {"using": "css selector", "value": "[name=\"email\"]"}
-http://127.0.0.1:61637 "POST /session/92274fea-f903-4e17-8583-c4a68ad5ca83/element HTTP/1.1" 200 88
-Finished Request
-POST http://127.0.0.1:61637/session/92274fea-f903-4e17-8583-c4a68ad5ca83/element/ba749454-0fa3-485a-8b9b-fc676e7fac94/value {"text": "5e614@gmail.com", "value": ["5", "e", "6", "1", "4", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"], "id": "ba749454-0fa3-485a-8b9b-fc676e7fac94"}
-http://127.0.0.1:61637 "POST /session/92274fea-f903-4e17-8583-c4a68ad5ca83/element/ba749454-0fa3-485a-8b9b-fc676e7fac94/value HTTP/1.1" 200 14
-Finished Request
-POST http://127.0.0.1:61637/session/92274fea-f903-4e17-8583-c4a68ad5ca83/element {"using": "css selector", "value": "[name=\"password\"]"}
-http://127.0.0.1:61637 "POST /session/92274fea-f903-4e17-8583-c4a68ad5ca83/element HTTP/1.1" 200 88
-Finished Request
-POST http://127.0.0.1:61637/session/92274fea-f903-4e17-8583-c4a68ad5ca83/element/80cbc836-051a-4822-a3eb-662783352cb1/value {"text": "abcxyz", "value": ["a", "b", "c", "x", "y", "z"], "id": "80cbc836-051a-4822-a3eb-662783352cb1"}
-http://127.0.0.1:61637 "POST /session/92274fea-f903-4e17-8583-c4a68ad5ca83/element/80cbc836-051a-4822-a3eb-662783352cb1/value HTTP/1.1" 200 14
-Finished Request
-POST http://127.0.0.1:61637/session/92274fea-f903-4e17-8583-c4a68ad5ca83/element {"using": "css selector", "value": "[name=\"agree\"]"}
-http://127.0.0.1:61637 "POST /session/92274fea-f903-4e17-8583-c4a68ad5ca83/element HTTP/1.1" 200 88
-Finished Request
-POST http://127.0.0.1:61637/session/92274fea-f903-4e17-8583-c4a68ad5ca83/element/3831dd8b-89fd-4080-9b1f-7b97c460ceb2/click {"id": "3831dd8b-89fd-4080-9b1f-7b97c460ceb2"}
-http://127.0.0.1:61637 "POST /session/92274fea-f903-4e17-8583-c4a68ad5ca83/element/3831dd8b-89fd-4080-9b1f-7b97c460ceb2/click HTTP/1.1" 200 14
-Finished Request
-POST http://127.0.0.1:61637/session/92274fea-f903-4e17-8583-c4a68ad5ca83/element {"using": "xpath", "value": "//button[text()='Continue']"}
-http://127.0.0.1:61637 "POST /session/92274fea-f903-4e17-8583-c4a68ad5ca83/element HTTP/1.1" 200 88
-Finished Request
-POST http://127.0.0.1:61637/session/92274fea-f903-4e17-8583-c4a68ad5ca83/element/7f6cbed9-4fd3-42a8-9cda-075cb2a76107/click {"id": "7f6cbed9-4fd3-42a8-9cda-075cb2a76107"}
-http://127.0.0.1:61637 "POST /session/92274fea-f903-4e17-8583-c4a68ad5ca83/element/7f6cbed9-4fd3-42a8-9cda-075cb2a76107/click HTTP/1.1" 200 14
-Finished Request
-POST http://127.0.0.1:61637/session/92274fea-f903-4e17-8583-c4a68ad5ca83/element {"using": "xpath", "value": "//h1[normalize-space()='Your Account Has Been Created!']"}
-http://127.0.0.1:61637 "POST /session/92274fea-f903-4e17-8583-c4a68ad5ca83/element HTTP/1.1" 404 440
-Finished Request
-GET http://127.0.0.1:61637/session/92274fea-f903-4e17-8583-c4a68ad5ca83/screenshot {}
-http://127.0.0.1:61637 "GET /session/92274fea-f903-4e17-8583-c4a68ad5ca83/screenshot HTTP/1.1" 200 177284
-Finished Request
-Account registration is failed...
-DELETE http://127.0.0.1:61637/session/92274fea-f903-4e17-8583-c4a68ad5ca83/window {}
-http://127.0.0.1:61637 "DELETE /session/92274fea-f903-4e17-8583-c4a68ad5ca83/window HTTP/1.1" 200 12
-Finished Request
-xdist worker is: gw0
-====== WebDriver manager ======
-Current firefox version is 119.0
-Get LATEST geckodriver version for 119.0 firefox
-Starting new HTTPS connection (1): api.github.com:443
-https://api.github.com:443 "GET /repos/mozilla/geckodriver/releases/latest HTTP/1.1" 200 2741
-There is no [win64] geckodriver for browser 119.0 in cache
+There is no [win64] geckodriver for browser 120.0 in cache
 Getting latest mozilla release info for v0.33.0
 Starting new HTTPS connection (1): api.github.com:443
-https://api.github.com:443 "GET /repos/mozilla/geckodriver/releases/tags/v0.33.0 HTTP/1.1" 200 2741
+https://api.github.com:443 "GET /repos/mozilla/geckodriver/releases/tags/v0.33.0 HTTP/1.1" 200 None
 About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.33.0/geckodriver-v0.33.0-win64.zip
 Starting new HTTPS connection (1): github.com:443
 https://github.com:443 "GET /mozilla/geckodriver/releases/download/v0.33.0/geckodriver-v0.33.0-win64.zip HTTP/1.1" 302 0
 Starting new HTTPS connection (1): objects.githubusercontent.com:443
-https://objects.githubusercontent.com:443 "GET /github-production-release-asset-2e65be/25354393/262910cf-b449-4db7-b4d9-e3de9b30d70a?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231113%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231113T150055Z&X-Amz-Expires=300&X-Amz-Signature=a47253dc10695a4ddc9584e41c8c6e8c3918b3a4a3a6043fc25b3441a645662f&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=25354393&response-content-disposition=attachment%3B%20filename%3Dgeckodriver-v0.33.0-win64.zip&response-content-type=application%2Foctet-stream HTTP/1.1" 200 1670449
-Driver has been saved in cache [C:\Users\Administrator\.wdm\gw0\drivers\geckodriver\win64\v0.33.0]
-POST http://127.0.0.1:61706/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "firefox", "acceptInsecureCerts": true}}, "desiredCapabilities": {"browserName": "firefox", "acceptInsecureCerts": true, "marionette": true}}
-Starting new HTTP connection (1): 127.0.0.1:61706
-http://127.0.0.1:61706 "POST /session HTTP/1.1" 200 708
+https://objects.githubusercontent.com:443 "GET /github-production-release-asset-2e65be/25354393/262910cf-b449-4db7-b4d9-e3de9b30d70a?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231219%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231219T080713Z&X-Amz-Expires=300&X-Amz-Signature=ba60fd2116cb42baee9530a62526867ed07b8914db7f79b9ca156a711cd8027d&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=25354393&response-content-disposition=attachment%3B%20filename%3Dgeckodriver-v0.33.0-win64.zip&response-content-type=application%2Foctet-stream HTTP/1.1" 200 1670449
+Driver has been saved in cache [C:\Users\Administrator\.wdm\drivers\geckodriver\win64\v0.33.0]
+POST http://127.0.0.1:49293/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "firefox", "acceptInsecureCerts": true}}, "desiredCapabilities": {"browserName": "firefox", "acceptInsecureCerts": true, "marionette": true}}
+Starting new HTTP connection (1): 127.0.0.1:49293
+http://127.0.0.1:49293 "POST /session HTTP/1.1" 200 708
 Finished Request
 **** test_001_AccountRegistration started ****
-POST http://127.0.0.1:61706/session/da258ce6-63aa-467b-b847-3b2e8318c66c/url {"url": "https://demo.opencart.com/"}
-http://127.0.0.1:61706 "POST /session/da258ce6-63aa-467b-b847-3b2e8318c66c/url HTTP/1.1" 200 14
+POST http://127.0.0.1:49293/session/5672cf97-8f04-4343-8097-c93e41f9980f/url {"url": "https://demo.opencart.com/"}
+http://127.0.0.1:49293 "POST /session/5672cf97-8f04-4343-8097-c93e41f9980f/url HTTP/1.1" 200 14
 Finished Request
 **** Launching application ****
-POST http://127.0.0.1:61706/session/da258ce6-63aa-467b-b847-3b2e8318c66c/window/maximize {}
-http://127.0.0.1:61706 "POST /session/da258ce6-63aa-467b-b847-3b2e8318c66c/window/maximize HTTP/1.1" 200 51
+POST http://127.0.0.1:49293/session/5672cf97-8f04-4343-8097-c93e41f9980f/window/maximize {}
+http://127.0.0.1:49293 "POST /session/5672cf97-8f04-4343-8097-c93e41f9980f/window/maximize HTTP/1.1" 200 51
 Finished Request
 **** clicking on MyAccount registration ****
-POST http://127.0.0.1:61706/session/da258ce6-63aa-467b-b847-3b2e8318c66c/element {"using": "xpath", "value": "//div[@class='dropdown']//span[text()='My Account']"}
-http://127.0.0.1:61706 "POST /session/da258ce6-63aa-467b-b847-3b2e8318c66c/element HTTP/1.1" 200 88
+POST http://127.0.0.1:49293/session/5672cf97-8f04-4343-8097-c93e41f9980f/element {"using": "xpath", "value": "//div[@class='dropdown']//span[text()='My Account']"}
+http://127.0.0.1:49293 "POST /session/5672cf97-8f04-4343-8097-c93e41f9980f/element HTTP/1.1" 200 88
 Finished Request
-POST http://127.0.0.1:61706/session/da258ce6-63aa-467b-b847-3b2e8318c66c/element/b46612d9-ffd6-43d1-b1fa-7d11816d1b74/click {"id": "b46612d9-ffd6-43d1-b1fa-7d11816d1b74"}
-http://127.0.0.1:61706 "POST /session/da258ce6-63aa-467b-b847-3b2e8318c66c/element/b46612d9-ffd6-43d1-b1fa-7d11816d1b74/click HTTP/1.1" 200 14
+POST http://127.0.0.1:49293/session/5672cf97-8f04-4343-8097-c93e41f9980f/element/d0424145-9945-4dd0-84bf-efee1e381483/click {"id": "d0424145-9945-4dd0-84bf-efee1e381483"}
+http://127.0.0.1:49293 "POST /session/5672cf97-8f04-4343-8097-c93e41f9980f/element/d0424145-9945-4dd0-84bf-efee1e381483/click HTTP/1.1" 200 14
 Finished Request
-POST http://127.0.0.1:61706/session/da258ce6-63aa-467b-b847-3b2e8318c66c/element {"using": "link text", "value": "Register"}
-http://127.0.0.1:61706 "POST /session/da258ce6-63aa-467b-b847-3b2e8318c66c/element HTTP/1.1" 200 88
+POST http://127.0.0.1:49293/session/5672cf97-8f04-4343-8097-c93e41f9980f/element {"using": "link text", "value": "Register"}
+http://127.0.0.1:49293 "POST /session/5672cf97-8f04-4343-8097-c93e41f9980f/element HTTP/1.1" 200 88
 Finished Request
-POST http://127.0.0.1:61706/session/da258ce6-63aa-467b-b847-3b2e8318c66c/element/531c36fb-c90a-4e73-8fa9-a214186a45cd/click {"id": "531c36fb-c90a-4e73-8fa9-a214186a45cd"}
-http://127.0.0.1:61706 "POST /session/da258ce6-63aa-467b-b847-3b2e8318c66c/element/531c36fb-c90a-4e73-8fa9-a214186a45cd/click HTTP/1.1" 200 14
+POST http://127.0.0.1:49293/session/5672cf97-8f04-4343-8097-c93e41f9980f/element/a833e864-73d8-4ecb-9e3a-b7097d590a68/click {"id": "a833e864-73d8-4ecb-9e3a-b7097d590a68"}
+http://127.0.0.1:49293 "POST /session/5672cf97-8f04-4343-8097-c93e41f9980f/element/a833e864-73d8-4ecb-9e3a-b7097d590a68/click HTTP/1.1" 200 14
 Finished Request
-POST http://127.0.0.1:61706/session/da258ce6-63aa-467b-b847-3b2e8318c66c/element {"using": "css selector", "value": "[name=\"firstname\"]"}
-http://127.0.0.1:61706 "POST /session/da258ce6-63aa-467b-b847-3b2e8318c66c/element HTTP/1.1" 200 88
+POST http://127.0.0.1:49293/session/5672cf97-8f04-4343-8097-c93e41f9980f/element {"using": "css selector", "value": "[name=\"firstname\"]"}
+http://127.0.0.1:49293 "POST /session/5672cf97-8f04-4343-8097-c93e41f9980f/element HTTP/1.1" 200 88
 Finished Request
-POST http://127.0.0.1:61706/session/da258ce6-63aa-467b-b847-3b2e8318c66c/element/43d930d8-f3a7-41a5-9a14-bb6f4d862c20/value {"text": "John", "value": ["J", "o", "h", "n"], "id": "43d930d8-f3a7-41a5-9a14-bb6f4d862c20"}
-http://127.0.0.1:61706 "POST /session/da258ce6-63aa-467b-b847-3b2e8318c66c/element/43d930d8-f3a7-41a5-9a14-bb6f4d862c20/value HTTP/1.1" 200 14
+POST http://127.0.0.1:49293/session/5672cf97-8f04-4343-8097-c93e41f9980f/element/05929078-27ca-41ac-9919-6ca1c928fd33/value {"text": "John", "value": ["J", "o", "h", "n"], "id": "05929078-27ca-41ac-9919-6ca1c928fd33"}
+http://127.0.0.1:49293 "POST /session/5672cf97-8f04-4343-8097-c93e41f9980f/element/05929078-27ca-41ac-9919-6ca1c928fd33/value HTTP/1.1" 200 14
 Finished Request
-POST http://127.0.0.1:61706/session/da258ce6-63aa-467b-b847-3b2e8318c66c/element {"using": "css selector", "value": "[name=\"lastname\"]"}
-http://127.0.0.1:61706 "POST /session/da258ce6-63aa-467b-b847-3b2e8318c66c/element HTTP/1.1" 200 88
+POST http://127.0.0.1:49293/session/5672cf97-8f04-4343-8097-c93e41f9980f/element {"using": "css selector", "value": "[name=\"lastname\"]"}
+http://127.0.0.1:49293 "POST /session/5672cf97-8f04-4343-8097-c93e41f9980f/element HTTP/1.1" 200 88
 Finished Request
-POST http://127.0.0.1:61706/session/da258ce6-63aa-467b-b847-3b2e8318c66c/element/150abeab-b6d1-439e-80ee-98adcdd5d28b/value {"text": "Canedy", "value": ["C", "a", "n", "e", "d", "y"], "id": "150abeab-b6d1-439e-80ee-98adcdd5d28b"}
-http://127.0.0.1:61706 "POST /session/da258ce6-63aa-467b-b847-3b2e8318c66c/element/150abeab-b6d1-439e-80ee-98adcdd5d28b/value HTTP/1.1" 200 14
+POST http://127.0.0.1:49293/session/5672cf97-8f04-4343-8097-c93e41f9980f/element/ed0dc023-2561-473b-96ac-c8cc51e51991/value {"text": "Canedy", "value": ["C", "a", "n", "e", "d", "y"], "id": "ed0dc023-2561-473b-96ac-c8cc51e51991"}
+http://127.0.0.1:49293 "POST /session/5672cf97-8f04-4343-8097-c93e41f9980f/element/ed0dc023-2561-473b-96ac-c8cc51e51991/value HTTP/1.1" 200 14
 Finished Request
-POST http://127.0.0.1:61706/session/da258ce6-63aa-467b-b847-3b2e8318c66c/element {"using": "css selector", "value": "[name=\"email\"]"}
-http://127.0.0.1:61706 "POST /session/da258ce6-63aa-467b-b847-3b2e8318c66c/element HTTP/1.1" 200 88
+POST http://127.0.0.1:49293/session/5672cf97-8f04-4343-8097-c93e41f9980f/element {"using": "css selector", "value": "[name=\"email\"]"}
+http://127.0.0.1:49293 "POST /session/5672cf97-8f04-4343-8097-c93e41f9980f/element HTTP/1.1" 200 88
 Finished Request
-POST http://127.0.0.1:61706/session/da258ce6-63aa-467b-b847-3b2e8318c66c/element/f358d152-37ca-4ebc-8af5-2d35bc22dff8/value {"text": "8clwp@gmail.com", "value": ["8", "c", "l", "w", "p", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"], "id": "f358d152-37ca-4ebc-8af5-2d35bc22dff8"}
-http://127.0.0.1:61706 "POST /session/da258ce6-63aa-467b-b847-3b2e8318c66c/element/f358d152-37ca-4ebc-8af5-2d35bc22dff8/value HTTP/1.1" 200 14
+POST http://127.0.0.1:49293/session/5672cf97-8f04-4343-8097-c93e41f9980f/element/ab3ca29f-6ac9-4821-a8bd-ee36594f9a65/value {"text": "5r6gj@gmail.com", "value": ["5", "r", "6", "g", "j", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"], "id": "ab3ca29f-6ac9-4821-a8bd-ee36594f9a65"}
+http://127.0.0.1:49293 "POST /session/5672cf97-8f04-4343-8097-c93e41f9980f/element/ab3ca29f-6ac9-4821-a8bd-ee36594f9a65/value HTTP/1.1" 200 14
 Finished Request
-POST http://127.0.0.1:61706/session/da258ce6-63aa-467b-b847-3b2e8318c66c/element {"using": "css selector", "value": "[name=\"password\"]"}
-http://127.0.0.1:61706 "POST /session/da258ce6-63aa-467b-b847-3b2e8318c66c/element HTTP/1.1" 200 88
+POST http://127.0.0.1:49293/session/5672cf97-8f04-4343-8097-c93e41f9980f/element {"using": "css selector", "value": "[name=\"password\"]"}
+http://127.0.0.1:49293 "POST /session/5672cf97-8f04-4343-8097-c93e41f9980f/element HTTP/1.1" 200 88
 Finished Request
-POST http://127.0.0.1:61706/session/da258ce6-63aa-467b-b847-3b2e8318c66c/element/cb4b6947-f414-4800-a1d2-023014a59089/value {"text": "abcxyz", "value": ["a", "b", "c", "x", "y", "z"], "id": "cb4b6947-f414-4800-a1d2-023014a59089"}
-http://127.0.0.1:61706 "POST /session/da258ce6-63aa-467b-b847-3b2e8318c66c/element/cb4b6947-f414-4800-a1d2-023014a59089/value HTTP/1.1" 200 14
+POST http://127.0.0.1:49293/session/5672cf97-8f04-4343-8097-c93e41f9980f/element/91c355cb-7739-4b6e-9916-598b95eb2de4/value {"text": "abcxyz", "value": ["a", "b", "c", "x", "y", "z"], "id": "91c355cb-7739-4b6e-9916-598b95eb2de4"}
+http://127.0.0.1:49293 "POST /session/5672cf97-8f04-4343-8097-c93e41f9980f/element/91c355cb-7739-4b6e-9916-598b95eb2de4/value HTTP/1.1" 200 14
 Finished Request
-POST http://127.0.0.1:61706/session/da258ce6-63aa-467b-b847-3b2e8318c66c/element {"using": "css selector", "value": "[name=\"agree\"]"}
-http://127.0.0.1:61706 "POST /session/da258ce6-63aa-467b-b847-3b2e8318c66c/element HTTP/1.1" 200 88
+POST http://127.0.0.1:49293/session/5672cf97-8f04-4343-8097-c93e41f9980f/element {"using": "css selector", "value": "[name=\"agree\"]"}
+http://127.0.0.1:49293 "POST /session/5672cf97-8f04-4343-8097-c93e41f9980f/element HTTP/1.1" 200 88
 Finished Request
-POST http://127.0.0.1:61706/session/da258ce6-63aa-467b-b847-3b2e8318c66c/element/15465fad-e5ff-417d-813e-d90ab1ed41b1/click {"id": "15465fad-e5ff-417d-813e-d90ab1ed41b1"}
-http://127.0.0.1:61706 "POST /session/da258ce6-63aa-467b-b847-3b2e8318c66c/element/15465fad-e5ff-417d-813e-d90ab1ed41b1/click HTTP/1.1" 200 14
+POST http://127.0.0.1:49293/session/5672cf97-8f04-4343-8097-c93e41f9980f/element/e5351965-450f-4304-b012-37d8f59f7940/click {"id": "e5351965-450f-4304-b012-37d8f59f7940"}
+http://127.0.0.1:49293 "POST /session/5672cf97-8f04-4343-8097-c93e41f9980f/element/e5351965-450f-4304-b012-37d8f59f7940/click HTTP/1.1" 200 14
 Finished Request
-POST http://127.0.0.1:61706/session/da258ce6-63aa-467b-b847-3b2e8318c66c/element {"using": "xpath", "value": "//button[text()='Continue']"}
-http://127.0.0.1:61706 "POST /session/da258ce6-63aa-467b-b847-3b2e8318c66c/element HTTP/1.1" 200 88
+POST http://127.0.0.1:49293/session/5672cf97-8f04-4343-8097-c93e41f9980f/element {"using": "xpath", "value": "//button[text()='Continue']"}
+http://127.0.0.1:49293 "POST /session/5672cf97-8f04-4343-8097-c93e41f9980f/element HTTP/1.1" 200 88
 Finished Request
-POST http://127.0.0.1:61706/session/da258ce6-63aa-467b-b847-3b2e8318c66c/element/f32a836e-c5e0-4c7f-ac3d-b723c8ab3d0b/click {"id": "f32a836e-c5e0-4c7f-ac3d-b723c8ab3d0b"}
-http://127.0.0.1:61706 "POST /session/da258ce6-63aa-467b-b847-3b2e8318c66c/element/f32a836e-c5e0-4c7f-ac3d-b723c8ab3d0b/click HTTP/1.1" 200 14
+POST http://127.0.0.1:49293/session/5672cf97-8f04-4343-8097-c93e41f9980f/element/82e2d990-85ad-45f5-b9a8-3612c53892da/click {"id": "82e2d990-85ad-45f5-b9a8-3612c53892da"}
+http://127.0.0.1:49293 "POST /session/5672cf97-8f04-4343-8097-c93e41f9980f/element/82e2d990-85ad-45f5-b9a8-3612c53892da/click HTTP/1.1" 200 14
 Finished Request
-POST http://127.0.0.1:61706/session/da258ce6-63aa-467b-b847-3b2e8318c66c/element {"using": "xpath", "value": "//h1[normalize-space()='Your Account Has Been Created!']"}
-http://127.0.0.1:61706 "POST /session/da258ce6-63aa-467b-b847-3b2e8318c66c/element HTTP/1.1" 404 440
+POST http://127.0.0.1:49293/session/5672cf97-8f04-4343-8097-c93e41f9980f/element {"using": "xpath", "value": "//h1[normalize-space()='Your Account Has Been Created!']"}
+http://127.0.0.1:49293 "POST /session/5672cf97-8f04-4343-8097-c93e41f9980f/element HTTP/1.1" 404 440
 Finished Request
-GET http://127.0.0.1:61706/session/da258ce6-63aa-467b-b847-3b2e8318c66c/screenshot {}
-http://127.0.0.1:61706 "GET /session/da258ce6-63aa-467b-b847-3b2e8318c66c/screenshot HTTP/1.1" 200 177284
+GET http://127.0.0.1:49293/session/5672cf97-8f04-4343-8097-c93e41f9980f/screenshot {}
+http://127.0.0.1:49293 "GET /session/5672cf97-8f04-4343-8097-c93e41f9980f/screenshot HTTP/1.1" 200 177284
 Finished Request
 Account registration is failed...
-DELETE http://127.0.0.1:61706/session/da258ce6-63aa-467b-b847-3b2e8318c66c/window {}
-http://127.0.0.1:61706 "DELETE /session/da258ce6-63aa-467b-b847-3b2e8318c66c/window HTTP/1.1" 200 12
+DELETE http://127.0.0.1:49293/session/5672cf97-8f04-4343-8097-c93e41f9980f/window {}
+http://127.0.0.1:49293 "DELETE /session/5672cf97-8f04-4343-8097-c93e41f9980f/window HTTP/1.1" 200 12
 Finished Request
-xdist worker is: gw0
 ====== WebDriver manager ======
-Current firefox version is 119.0
-Get LATEST geckodriver version for 119.0 firefox
+Current firefox version is 120.0
+Get LATEST geckodriver version for 120.0 firefox
+Starting new HTTPS connection (1): api.github.com:443
+https://api.github.com:443 "GET /repos/mozilla/geckodriver/releases/latest HTTP/1.1" 200 2743
+Driver [C:\Users\Administrator\.wdm\drivers\geckodriver\win64\v0.33.0\geckodriver.exe] found in cache
+POST http://127.0.0.1:49366/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "firefox", "acceptInsecureCerts": true}}, "desiredCapabilities": {"browserName": "firefox", "acceptInsecureCerts": true, "marionette": true}}
+Starting new HTTP connection (1): 127.0.0.1:49366
+http://127.0.0.1:49366 "POST /session HTTP/1.1" 200 708
+Finished Request
+**** test_001_AccountRegistration started ****
+POST http://127.0.0.1:49366/session/11a2fd5b-ef04-46ef-b822-19092ff304b8/url {"url": "https://demo.opencart.com/"}
+http://127.0.0.1:49366 "POST /session/11a2fd5b-ef04-46ef-b822-19092ff304b8/url HTTP/1.1" 200 14
+Finished Request
+**** Launching application ****
+POST http://127.0.0.1:49366/session/11a2fd5b-ef04-46ef-b822-19092ff304b8/window/maximize {}
+http://127.0.0.1:49366 "POST /session/11a2fd5b-ef04-46ef-b822-19092ff304b8/window/maximize HTTP/1.1" 200 51
+Finished Request
+**** clicking on MyAccount registration ****
+POST http://127.0.0.1:49366/session/11a2fd5b-ef04-46ef-b822-19092ff304b8/element {"using": "xpath", "value": "//div[@class='dropdown']//span[text()='My Account']"}
+http://127.0.0.1:49366 "POST /session/11a2fd5b-ef04-46ef-b822-19092ff304b8/element HTTP/1.1" 200 88
+Finished Request
+POST http://127.0.0.1:49366/session/11a2fd5b-ef04-46ef-b822-19092ff304b8/element/a6407f1a-12df-47f6-a5bf-483ab187a1c9/click {"id": "a6407f1a-12df-47f6-a5bf-483ab187a1c9"}
+http://127.0.0.1:49366 "POST /session/11a2fd5b-ef04-46ef-b822-19092ff304b8/element/a6407f1a-12df-47f6-a5bf-483ab187a1c9/click HTTP/1.1" 200 14
+Finished Request
+POST http://127.0.0.1:49366/session/11a2fd5b-ef04-46ef-b822-19092ff304b8/element {"using": "link text", "value": "Register"}
+http://127.0.0.1:49366 "POST /session/11a2fd5b-ef04-46ef-b822-19092ff304b8/element HTTP/1.1" 200 88
+Finished Request
+POST http://127.0.0.1:49366/session/11a2fd5b-ef04-46ef-b822-19092ff304b8/element/81a3449a-23ae-4f30-b071-161b7519afbc/click {"id": "81a3449a-23ae-4f30-b071-161b7519afbc"}
+http://127.0.0.1:49366 "POST /session/11a2fd5b-ef04-46ef-b822-19092ff304b8/element/81a3449a-23ae-4f30-b071-161b7519afbc/click HTTP/1.1" 200 14
+Finished Request
+POST http://127.0.0.1:49366/session/11a2fd5b-ef04-46ef-b822-19092ff304b8/element {"using": "css selector", "value": "[name=\"firstname\"]"}
+http://127.0.0.1:49366 "POST /session/11a2fd5b-ef04-46ef-b822-19092ff304b8/element HTTP/1.1" 200 88
+Finished Request
+POST http://127.0.0.1:49366/session/11a2fd5b-ef04-46ef-b822-19092ff304b8/element/59fba230-92cf-457e-842b-52256db92d8c/value {"text": "John", "value": ["J", "o", "h", "n"], "id": "59fba230-92cf-457e-842b-52256db92d8c"}
+http://127.0.0.1:49366 "POST /session/11a2fd5b-ef04-46ef-b822-19092ff304b8/element/59fba230-92cf-457e-842b-52256db92d8c/value HTTP/1.1" 200 14
+Finished Request
+POST http://127.0.0.1:49366/session/11a2fd5b-ef04-46ef-b822-19092ff304b8/element {"using": "css selector", "value": "[name=\"lastname\"]"}
+http://127.0.0.1:49366 "POST /session/11a2fd5b-ef04-46ef-b822-19092ff304b8/element HTTP/1.1" 200 88
+Finished Request
+POST http://127.0.0.1:49366/session/11a2fd5b-ef04-46ef-b822-19092ff304b8/element/3dadeca9-9cae-45f9-b5f0-23dcef2518c5/value {"text": "Canedy", "value": ["C", "a", "n", "e", "d", "y"], "id": "3dadeca9-9cae-45f9-b5f0-23dcef2518c5"}
+http://127.0.0.1:49366 "POST /session/11a2fd5b-ef04-46ef-b822-19092ff304b8/element/3dadeca9-9cae-45f9-b5f0-23dcef2518c5/value HTTP/1.1" 200 14
+Finished Request
+POST http://127.0.0.1:49366/session/11a2fd5b-ef04-46ef-b822-19092ff304b8/element {"using": "css selector", "value": "[name=\"email\"]"}
+http://127.0.0.1:49366 "POST /session/11a2fd5b-ef04-46ef-b822-19092ff304b8/element HTTP/1.1" 200 88
+Finished Request
+POST http://127.0.0.1:49366/session/11a2fd5b-ef04-46ef-b822-19092ff304b8/element/01508b88-e13c-4be8-abd8-e6a937131ad8/value {"text": "kq6th@gmail.com", "value": ["k", "q", "6", "t", "h", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"], "id": "01508b88-e13c-4be8-abd8-e6a937131ad8"}
+http://127.0.0.1:49366 "POST /session/11a2fd5b-ef04-46ef-b822-19092ff304b8/element/01508b88-e13c-4be8-abd8-e6a937131ad8/value HTTP/1.1" 200 14
+Finished Request
+POST http://127.0.0.1:49366/session/11a2fd5b-ef04-46ef-b822-19092ff304b8/element {"using": "css selector", "value": "[name=\"password\"]"}
+http://127.0.0.1:49366 "POST /session/11a2fd5b-ef04-46ef-b822-19092ff304b8/element HTTP/1.1" 200 88
+Finished Request
+POST http://127.0.0.1:49366/session/11a2fd5b-ef04-46ef-b822-19092ff304b8/element/5a8ab148-dee1-482e-a77f-179ee34cee6c/value {"text": "abcxyz", "value": ["a", "b", "c", "x", "y", "z"], "id": "5a8ab148-dee1-482e-a77f-179ee34cee6c"}
+http://127.0.0.1:49366 "POST /session/11a2fd5b-ef04-46ef-b822-19092ff304b8/element/5a8ab148-dee1-482e-a77f-179ee34cee6c/value HTTP/1.1" 200 14
+Finished Request
+POST http://127.0.0.1:49366/session/11a2fd5b-ef04-46ef-b822-19092ff304b8/element {"using": "css selector", "value": "[name=\"agree\"]"}
+http://127.0.0.1:49366 "POST /session/11a2fd5b-ef04-46ef-b822-19092ff304b8/element HTTP/1.1" 200 88
+Finished Request
+POST http://127.0.0.1:49366/session/11a2fd5b-ef04-46ef-b822-19092ff304b8/element/ee9a7a29-7a65-495c-a0e7-2f91394cd68f/click {"id": "ee9a7a29-7a65-495c-a0e7-2f91394cd68f"}
+http://127.0.0.1:49366 "POST /session/11a2fd5b-ef04-46ef-b822-19092ff304b8/element/ee9a7a29-7a65-495c-a0e7-2f91394cd68f/click HTTP/1.1" 200 14
+Finished Request
+POST http://127.0.0.1:49366/session/11a2fd5b-ef04-46ef-b822-19092ff304b8/element {"using": "xpath", "value": "//button[text()='Continue']"}
+http://127.0.0.1:49366 "POST /session/11a2fd5b-ef04-46ef-b822-19092ff304b8/element HTTP/1.1" 200 88
+Finished Request
+POST http://127.0.0.1:49366/session/11a2fd5b-ef04-46ef-b822-19092ff304b8/element/574736a3-9591-490e-a873-bf1f8e82c72b/click {"id": "574736a3-9591-490e-a873-bf1f8e82c72b"}
+http://127.0.0.1:49366 "POST /session/11a2fd5b-ef04-46ef-b822-19092ff304b8/element/574736a3-9591-490e-a873-bf1f8e82c72b/click HTTP/1.1" 200 14
+Finished Request
+POST http://127.0.0.1:49366/session/11a2fd5b-ef04-46ef-b822-19092ff304b8/element {"using": "xpath", "value": "//h1[normalize-space()='Your Account Has Been Created!']"}
+http://127.0.0.1:49366 "POST /session/11a2fd5b-ef04-46ef-b822-19092ff304b8/element HTTP/1.1" 404 440
+Finished Request
+GET http://127.0.0.1:49366/session/11a2fd5b-ef04-46ef-b822-19092ff304b8/screenshot {}
+http://127.0.0.1:49366 "GET /session/11a2fd5b-ef04-46ef-b822-19092ff304b8/screenshot HTTP/1.1" 200 177284
+Finished Request
+Account registration is failed...
+DELETE http://127.0.0.1:49366/session/11a2fd5b-ef04-46ef-b822-19092ff304b8/window {}
+http://127.0.0.1:49366 "DELETE /session/11a2fd5b-ef04-46ef-b822-19092ff304b8/window HTTP/1.1" 200 12
+Finished Request
+====== WebDriver manager ======
+Current firefox version is 120.0
+Get LATEST geckodriver version for 120.0 firefox
+Starting new HTTPS connection (1): api.github.com:443
+https://api.github.com:443 "GET /repos/mozilla/geckodriver/releases/latest HTTP/1.1" 200 2742
+Driver [C:\Users\Administrator\.wdm\drivers\geckodriver\win64\v0.33.0\geckodriver.exe] found in cache
+POST http://127.0.0.1:49420/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "firefox", "acceptInsecureCerts": true}}, "desiredCapabilities": {"browserName": "firefox", "acceptInsecureCerts": true, "marionette": true}}
+Starting new HTTP connection (1): 127.0.0.1:49420
+http://127.0.0.1:49420 "POST /session HTTP/1.1" 200 708
+Finished Request
+******* Starting test_002_login **********
+POST http://127.0.0.1:49420/session/ea3dda9d-078a-4812-a7ce-0a0c940decfd/url {"url": "https://demo.opencart.com/"}
+http://127.0.0.1:49420 "POST /session/ea3dda9d-078a-4812-a7ce-0a0c940decfd/url HTTP/1.1" 200 14
+Finished Request
+POST http://127.0.0.1:49420/session/ea3dda9d-078a-4812-a7ce-0a0c940decfd/window/maximize {}
+http://127.0.0.1:49420 "POST /session/ea3dda9d-078a-4812-a7ce-0a0c940decfd/window/maximize HTTP/1.1" 200 51
+Finished Request
+POST http://127.0.0.1:49420/session/ea3dda9d-078a-4812-a7ce-0a0c940decfd/element {"using": "xpath", "value": "//div[@class='dropdown']//span[text()='My Account']"}
+http://127.0.0.1:49420 "POST /session/ea3dda9d-078a-4812-a7ce-0a0c940decfd/element HTTP/1.1" 200 88
+Finished Request
+POST http://127.0.0.1:49420/session/ea3dda9d-078a-4812-a7ce-0a0c940decfd/element/7213ccf1-5636-4082-ba23-2ce3aee2b95f/click {"id": "7213ccf1-5636-4082-ba23-2ce3aee2b95f"}
+http://127.0.0.1:49420 "POST /session/ea3dda9d-078a-4812-a7ce-0a0c940decfd/element/7213ccf1-5636-4082-ba23-2ce3aee2b95f/click HTTP/1.1" 200 14
+Finished Request
+POST http://127.0.0.1:49420/session/ea3dda9d-078a-4812-a7ce-0a0c940decfd/element {"using": "link text", "value": "Login"}
+http://127.0.0.1:49420 "POST /session/ea3dda9d-078a-4812-a7ce-0a0c940decfd/element HTTP/1.1" 200 88
+Finished Request
+POST http://127.0.0.1:49420/session/ea3dda9d-078a-4812-a7ce-0a0c940decfd/element/2a32e69e-7f98-4492-8f3c-080949c70588/click {"id": "2a32e69e-7f98-4492-8f3c-080949c70588"}
+http://127.0.0.1:49420 "POST /session/ea3dda9d-078a-4812-a7ce-0a0c940decfd/element/2a32e69e-7f98-4492-8f3c-080949c70588/click HTTP/1.1" 200 14
+Finished Request
+POST http://127.0.0.1:49420/session/ea3dda9d-078a-4812-a7ce-0a0c940decfd/element {"using": "xpath", "value": "//input[@id='input-email']"}
+http://127.0.0.1:49420 "POST /session/ea3dda9d-078a-4812-a7ce-0a0c940decfd/element HTTP/1.1" 200 88
+Finished Request
+POST http://127.0.0.1:49420/session/ea3dda9d-078a-4812-a7ce-0a0c940decfd/element/a1b47477-66d3-4827-943d-67477c6ddf5e/value {"text": "abc@gmail.com", "value": ["a", "b", "c", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"], "id": "a1b47477-66d3-4827-943d-67477c6ddf5e"}
+http://127.0.0.1:49420 "POST /session/ea3dda9d-078a-4812-a7ce-0a0c940decfd/element/a1b47477-66d3-4827-943d-67477c6ddf5e/value HTTP/1.1" 200 14
+Finished Request
+POST http://127.0.0.1:49420/session/ea3dda9d-078a-4812-a7ce-0a0c940decfd/element {"using": "xpath", "value": "//input[@id='input-password']"}
+http://127.0.0.1:49420 "POST /session/ea3dda9d-078a-4812-a7ce-0a0c940decfd/element HTTP/1.1" 200 88
+Finished Request
+POST http://127.0.0.1:49420/session/ea3dda9d-078a-4812-a7ce-0a0c940decfd/element/0b544ab7-d507-40c3-b15e-f09cad26e281/value {"text": "abcxyz", "value": ["a", "b", "c", "x", "y", "z"], "id": "0b544ab7-d507-40c3-b15e-f09cad26e281"}
+http://127.0.0.1:49420 "POST /session/ea3dda9d-078a-4812-a7ce-0a0c940decfd/element/0b544ab7-d507-40c3-b15e-f09cad26e281/value HTTP/1.1" 200 14
+Finished Request
+POST http://127.0.0.1:49420/session/ea3dda9d-078a-4812-a7ce-0a0c940decfd/element {"using": "xpath", "value": "//input[@value='Login']"}
+http://127.0.0.1:49420 "POST /session/ea3dda9d-078a-4812-a7ce-0a0c940decfd/element HTTP/1.1" 404 407
+Finished Request
+====== WebDriver manager ======
+Current firefox version is 120.0
+Get LATEST geckodriver version for 120.0 firefox
+Starting new HTTPS connection (1): api.github.com:443
+https://api.github.com:443 "GET /repos/mozilla/geckodriver/releases/latest HTTP/1.1" 200 2736
+Driver [C:\Users\Administrator\.wdm\drivers\geckodriver\win64\v0.33.0\geckodriver.exe] found in cache
+POST http://127.0.0.1:50958/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "firefox", "acceptInsecureCerts": true}}, "desiredCapabilities": {"browserName": "firefox", "acceptInsecureCerts": true, "marionette": true}}
+Starting new HTTP connection (1): 127.0.0.1:50958
+http://127.0.0.1:50958 "POST /session HTTP/1.1" 200 708
+Finished Request
+**** test_001_AccountRegistration started ****
+POST http://127.0.0.1:50958/session/750c01f8-385c-46fa-a43c-11b967e9b011/url {"url": "https://demo.opencart.com/"}
+http://127.0.0.1:50958 "POST /session/750c01f8-385c-46fa-a43c-11b967e9b011/url HTTP/1.1" 200 14
+Finished Request
+**** Launching application ****
+POST http://127.0.0.1:50958/session/750c01f8-385c-46fa-a43c-11b967e9b011/window/maximize {}
+http://127.0.0.1:50958 "POST /session/750c01f8-385c-46fa-a43c-11b967e9b011/window/maximize HTTP/1.1" 200 51
+Finished Request
+**** clicking on MyAccount registration ****
+POST http://127.0.0.1:50958/session/750c01f8-385c-46fa-a43c-11b967e9b011/element {"using": "xpath", "value": "//div[@class='dropdown']//span[text()='My Account']"}
+http://127.0.0.1:50958 "POST /session/750c01f8-385c-46fa-a43c-11b967e9b011/element HTTP/1.1" 200 88
+Finished Request
+POST http://127.0.0.1:50958/session/750c01f8-385c-46fa-a43c-11b967e9b011/element/991cd94e-ccd0-48a0-90c5-2f2a0b3476f9/click {"id": "991cd94e-ccd0-48a0-90c5-2f2a0b3476f9"}
+http://127.0.0.1:50958 "POST /session/750c01f8-385c-46fa-a43c-11b967e9b011/element/991cd94e-ccd0-48a0-90c5-2f2a0b3476f9/click HTTP/1.1" 200 14
+Finished Request
+POST http://127.0.0.1:50958/session/750c01f8-385c-46fa-a43c-11b967e9b011/element {"using": "link text", "value": "Register"}
+http://127.0.0.1:50958 "POST /session/750c01f8-385c-46fa-a43c-11b967e9b011/element HTTP/1.1" 200 88
+Finished Request
+POST http://127.0.0.1:50958/session/750c01f8-385c-46fa-a43c-11b967e9b011/element/a9032c94-dd7b-410f-9fc0-ccd04782a67c/click {"id": "a9032c94-dd7b-410f-9fc0-ccd04782a67c"}
+http://127.0.0.1:50958 "POST /session/750c01f8-385c-46fa-a43c-11b967e9b011/element/a9032c94-dd7b-410f-9fc0-ccd04782a67c/click HTTP/1.1" 200 14
+Finished Request
+POST http://127.0.0.1:50958/session/750c01f8-385c-46fa-a43c-11b967e9b011/element {"using": "css selector", "value": "[name=\"firstname\"]"}
+http://127.0.0.1:50958 "POST /session/750c01f8-385c-46fa-a43c-11b967e9b011/element HTTP/1.1" 200 88
+Finished Request
+POST http://127.0.0.1:50958/session/750c01f8-385c-46fa-a43c-11b967e9b011/element/90a7f197-2c18-4f35-bcc7-2bc35de1ca42/value {"text": "John", "value": ["J", "o", "h", "n"], "id": "90a7f197-2c18-4f35-bcc7-2bc35de1ca42"}
+http://127.0.0.1:50958 "POST /session/750c01f8-385c-46fa-a43c-11b967e9b011/element/90a7f197-2c18-4f35-bcc7-2bc35de1ca42/value HTTP/1.1" 200 14
+Finished Request
+POST http://127.0.0.1:50958/session/750c01f8-385c-46fa-a43c-11b967e9b011/element {"using": "css selector", "value": "[name=\"lastname\"]"}
+http://127.0.0.1:50958 "POST /session/750c01f8-385c-46fa-a43c-11b967e9b011/element HTTP/1.1" 200 88
+Finished Request
+POST http://127.0.0.1:50958/session/750c01f8-385c-46fa-a43c-11b967e9b011/element/b1e94b54-3087-4f5b-926e-4001c33615f5/value {"text": "Canedy", "value": ["C", "a", "n", "e", "d", "y"], "id": "b1e94b54-3087-4f5b-926e-4001c33615f5"}
+http://127.0.0.1:50958 "POST /session/750c01f8-385c-46fa-a43c-11b967e9b011/element/b1e94b54-3087-4f5b-926e-4001c33615f5/value HTTP/1.1" 200 14
+Finished Request
+POST http://127.0.0.1:50958/session/750c01f8-385c-46fa-a43c-11b967e9b011/element {"using": "css selector", "value": "[name=\"email\"]"}
+http://127.0.0.1:50958 "POST /session/750c01f8-385c-46fa-a43c-11b967e9b011/element HTTP/1.1" 200 88
+Finished Request
+POST http://127.0.0.1:50958/session/750c01f8-385c-46fa-a43c-11b967e9b011/element/aa15ef0b-667a-42f8-b0cf-79d728517457/value {"text": "56pev@gmail.com", "value": ["5", "6", "p", "e", "v", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"], "id": "aa15ef0b-667a-42f8-b0cf-79d728517457"}
+http://127.0.0.1:50958 "POST /session/750c01f8-385c-46fa-a43c-11b967e9b011/element/aa15ef0b-667a-42f8-b0cf-79d728517457/value HTTP/1.1" 200 14
+Finished Request
+POST http://127.0.0.1:50958/session/750c01f8-385c-46fa-a43c-11b967e9b011/element {"using": "css selector", "value": "[name=\"password\"]"}
+http://127.0.0.1:50958 "POST /session/750c01f8-385c-46fa-a43c-11b967e9b011/element HTTP/1.1" 200 88
+Finished Request
+POST http://127.0.0.1:50958/session/750c01f8-385c-46fa-a43c-11b967e9b011/element/8513e163-7cec-4cf5-bab3-b88e8b2de098/value {"text": "abcxyz", "value": ["a", "b", "c", "x", "y", "z"], "id": "8513e163-7cec-4cf5-bab3-b88e8b2de098"}
+http://127.0.0.1:50958 "POST /session/750c01f8-385c-46fa-a43c-11b967e9b011/element/8513e163-7cec-4cf5-bab3-b88e8b2de098/value HTTP/1.1" 200 14
+Finished Request
+POST http://127.0.0.1:50958/session/750c01f8-385c-46fa-a43c-11b967e9b011/element {"using": "css selector", "value": "[name=\"agree\"]"}
+http://127.0.0.1:50958 "POST /session/750c01f8-385c-46fa-a43c-11b967e9b011/element HTTP/1.1" 200 88
+Finished Request
+POST http://127.0.0.1:50958/session/750c01f8-385c-46fa-a43c-11b967e9b011/element/80fde51a-3d10-44b0-aa9b-f53e75fd8c17/click {"id": "80fde51a-3d10-44b0-aa9b-f53e75fd8c17"}
+http://127.0.0.1:50958 "POST /session/750c01f8-385c-46fa-a43c-11b967e9b011/element/80fde51a-3d10-44b0-aa9b-f53e75fd8c17/click HTTP/1.1" 200 14
+Finished Request
+POST http://127.0.0.1:50958/session/750c01f8-385c-46fa-a43c-11b967e9b011/element {"using": "xpath", "value": "//button[text()='Continue']"}
+http://127.0.0.1:50958 "POST /session/750c01f8-385c-46fa-a43c-11b967e9b011/element HTTP/1.1" 200 88
+Finished Request
+POST http://127.0.0.1:50958/session/750c01f8-385c-46fa-a43c-11b967e9b011/element/ec0a4a92-891c-431a-8267-8556d0f7e781/click {"id": "ec0a4a92-891c-431a-8267-8556d0f7e781"}
+http://127.0.0.1:50958 "POST /session/750c01f8-385c-46fa-a43c-11b967e9b011/element/ec0a4a92-891c-431a-8267-8556d0f7e781/click HTTP/1.1" 200 14
+Finished Request
+POST http://127.0.0.1:50958/session/750c01f8-385c-46fa-a43c-11b967e9b011/element {"using": "xpath", "value": "//h1[normalize-space()='Your Account Has Been Created!']"}
+http://127.0.0.1:50958 "POST /session/750c01f8-385c-46fa-a43c-11b967e9b011/element HTTP/1.1" 404 440
+Finished Request
+GET http://127.0.0.1:50958/session/750c01f8-385c-46fa-a43c-11b967e9b011/screenshot {}
+http://127.0.0.1:50958 "GET /session/750c01f8-385c-46fa-a43c-11b967e9b011/screenshot HTTP/1.1" 200 134224
+Finished Request
+Account registration is failed...
+DELETE http://127.0.0.1:50958/session/750c01f8-385c-46fa-a43c-11b967e9b011/window {}
+http://127.0.0.1:50958 "DELETE /session/750c01f8-385c-46fa-a43c-11b967e9b011/window HTTP/1.1" 200 12
+Finished Request
+====== WebDriver manager ======
+Current firefox version is 120.0
+Get LATEST geckodriver version for 120.0 firefox
+Starting new HTTPS connection (1): api.github.com:443
+https://api.github.com:443 "GET /repos/mozilla/geckodriver/releases/latest HTTP/1.1" 200 2734
+Driver [C:\Users\Administrator\.wdm\drivers\geckodriver\win64\v0.33.0\geckodriver.exe] found in cache
+POST http://127.0.0.1:51004/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "firefox", "acceptInsecureCerts": true}}, "desiredCapabilities": {"browserName": "firefox", "acceptInsecureCerts": true, "marionette": true}}
+Starting new HTTP connection (1): 127.0.0.1:51004
+http://127.0.0.1:51004 "POST /session HTTP/1.1" 200 708
+Finished Request
+******* Starting test_002_login **********
+POST http://127.0.0.1:51004/session/a8db4269-67c8-47bc-9bed-8d17bfe107b0/url {"url": "https://demo.opencart.com/"}
+http://127.0.0.1:51004 "POST /session/a8db4269-67c8-47bc-9bed-8d17bfe107b0/url HTTP/1.1" 200 14
+Finished Request
+POST http://127.0.0.1:51004/session/a8db4269-67c8-47bc-9bed-8d17bfe107b0/window/maximize {}
+http://127.0.0.1:51004 "POST /session/a8db4269-67c8-47bc-9bed-8d17bfe107b0/window/maximize HTTP/1.1" 200 51
+Finished Request
+POST http://127.0.0.1:51004/session/a8db4269-67c8-47bc-9bed-8d17bfe107b0/element {"using": "xpath", "value": "//div[@class='dropdown']//span[text()='My Account']"}
+http://127.0.0.1:51004 "POST /session/a8db4269-67c8-47bc-9bed-8d17bfe107b0/element HTTP/1.1" 200 88
+Finished Request
+POST http://127.0.0.1:51004/session/a8db4269-67c8-47bc-9bed-8d17bfe107b0/element/cfef960b-edfe-47b2-b3b2-10337da1e6f6/click {"id": "cfef960b-edfe-47b2-b3b2-10337da1e6f6"}
+http://127.0.0.1:51004 "POST /session/a8db4269-67c8-47bc-9bed-8d17bfe107b0/element/cfef960b-edfe-47b2-b3b2-10337da1e6f6/click HTTP/1.1" 200 14
+Finished Request
+POST http://127.0.0.1:51004/session/a8db4269-67c8-47bc-9bed-8d17bfe107b0/element {"using": "link text", "value": "Login"}
+http://127.0.0.1:51004 "POST /session/a8db4269-67c8-47bc-9bed-8d17bfe107b0/element HTTP/1.1" 200 88
+Finished Request
+POST http://127.0.0.1:51004/session/a8db4269-67c8-47bc-9bed-8d17bfe107b0/element/ad5c1351-cc37-4f34-9233-08822a0bfa18/click {"id": "ad5c1351-cc37-4f34-9233-08822a0bfa18"}
+http://127.0.0.1:51004 "POST /session/a8db4269-67c8-47bc-9bed-8d17bfe107b0/element/ad5c1351-cc37-4f34-9233-08822a0bfa18/click HTTP/1.1" 200 14
+Finished Request
+POST http://127.0.0.1:51004/session/a8db4269-67c8-47bc-9bed-8d17bfe107b0/element {"using": "xpath", "value": "//input[@id='input-email']"}
+http://127.0.0.1:51004 "POST /session/a8db4269-67c8-47bc-9bed-8d17bfe107b0/element HTTP/1.1" 200 88
+Finished Request
+POST http://127.0.0.1:51004/session/a8db4269-67c8-47bc-9bed-8d17bfe107b0/element/c88d7afb-3e3f-4c3a-ba50-df741898709a/value {"text": "abc@gmail.com", "value": ["a", "b", "c", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"], "id": "c88d7afb-3e3f-4c3a-ba50-df741898709a"}
+http://127.0.0.1:51004 "POST /session/a8db4269-67c8-47bc-9bed-8d17bfe107b0/element/c88d7afb-3e3f-4c3a-ba50-df741898709a/value HTTP/1.1" 200 14
+Finished Request
+POST http://127.0.0.1:51004/session/a8db4269-67c8-47bc-9bed-8d17bfe107b0/element {"using": "xpath", "value": "//input[@id='input-password']"}
+http://127.0.0.1:51004 "POST /session/a8db4269-67c8-47bc-9bed-8d17bfe107b0/element HTTP/1.1" 200 88
+Finished Request
+POST http://127.0.0.1:51004/session/a8db4269-67c8-47bc-9bed-8d17bfe107b0/element/4c3f51c0-173d-4b44-b57b-06489e498b84/value {"text": "abcxyz", "value": ["a", "b", "c", "x", "y", "z"], "id": "4c3f51c0-173d-4b44-b57b-06489e498b84"}
+http://127.0.0.1:51004 "POST /session/a8db4269-67c8-47bc-9bed-8d17bfe107b0/element/4c3f51c0-173d-4b44-b57b-06489e498b84/value HTTP/1.1" 200 14
+Finished Request
+POST http://127.0.0.1:51004/session/a8db4269-67c8-47bc-9bed-8d17bfe107b0/element {"using": "xpath", "value": "//input[@value='Login']"}
+http://127.0.0.1:51004 "POST /session/a8db4269-67c8-47bc-9bed-8d17bfe107b0/element HTTP/1.1" 404 407
+Finished Request
+====== WebDriver manager ======
+Current firefox version is 120.0
+Get LATEST geckodriver version for 120.0 firefox
+Starting new HTTPS connection (1): api.github.com:443
+https://api.github.com:443 "GET /repos/mozilla/geckodriver/releases/latest HTTP/1.1" 200 None
+Driver [C:\Users\Administrator\.wdm\drivers\geckodriver\win64\v0.33.0\geckodriver.exe] found in cache
+POST http://127.0.0.1:51055/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "firefox", "acceptInsecureCerts": true}}, "desiredCapabilities": {"browserName": "firefox", "acceptInsecureCerts": true, "marionette": true}}
+Starting new HTTP connection (1): 127.0.0.1:51055
+http://127.0.0.1:51055 "POST /session HTTP/1.1" 200 707
+Finished Request
+POST http://127.0.0.1:51055/session/7e7789d7-eb3e-46af-83e2-0a35057047ed/url {"url": "https://demo.opencart.com/"}
+http://127.0.0.1:51055 "POST /session/7e7789d7-eb3e-46af-83e2-0a35057047ed/url HTTP/1.1" 200 14
+Finished Request
+POST http://127.0.0.1:51055/session/7e7789d7-eb3e-46af-83e2-0a35057047ed/window/maximize {}
+http://127.0.0.1:51055 "POST /session/7e7789d7-eb3e-46af-83e2-0a35057047ed/window/maximize HTTP/1.1" 200 51
+Finished Request
+GET http://127.0.0.1:51055/session/7e7789d7-eb3e-46af-83e2-0a35057047ed/title {}
+http://127.0.0.1:51055 "GET /session/7e7789d7-eb3e-46af-83e2-0a35057047ed/title HTTP/1.1" 200 22
+Finished Request
+====== WebDriver manager ======
+Current firefox version is 120.0
+Get LATEST geckodriver version for 120.0 firefox
 Starting new HTTPS connection (1): api.github.com:443
 https://api.github.com:443 "GET /repos/mozilla/geckodriver/releases/latest HTTP/1.1" 200 2737
-Driver [C:\Users\Administrator\.wdm\gw0\drivers\geckodriver\win64\v0.33.0\geckodriver.exe] found in cache
-POST http://127.0.0.1:61746/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "firefox", "acceptInsecureCerts": true}}, "desiredCapabilities": {"browserName": "firefox", "acceptInsecureCerts": true, "marionette": true}}
-Starting new HTTP connection (1): 127.0.0.1:61746
-http://127.0.0.1:61746 "POST /session HTTP/1.1" 200 708
-Finished Request
-**** test_001_AccountRegistration started ****
-POST http://127.0.0.1:61746/session/2d1bd2e6-8f99-450d-93b5-e548a70672be/url {"url": "https://demo.opencart.com/"}
-http://127.0.0.1:61746 "POST /session/2d1bd2e6-8f99-450d-93b5-e548a70672be/url HTTP/1.1" 200 14
-Finished Request
-**** Launching application ****
-POST http://127.0.0.1:61746/session/2d1bd2e6-8f99-450d-93b5-e548a70672be/window/maximize {}
-http://127.0.0.1:61746 "POST /session/2d1bd2e6-8f99-450d-93b5-e548a70672be/window/maximize HTTP/1.1" 200 51
-Finished Request
-**** clicking on MyAccount registration ****
-POST http://127.0.0.1:61746/session/2d1bd2e6-8f99-450d-93b5-e548a70672be/element {"using": "xpath", "value": "//div[@class='dropdown']//span[text()='My Account']"}
-http://127.0.0.1:61746 "POST /session/2d1bd2e6-8f99-450d-93b5-e548a70672be/element HTTP/1.1" 200 88
-Finished Request
-POST http://127.0.0.1:61746/session/2d1bd2e6-8f99-450d-93b5-e548a70672be/element/e206c0ea-8714-4fbb-83ef-08e43c14ab50/click {"id": "e206c0ea-8714-4fbb-83ef-08e43c14ab50"}
-http://127.0.0.1:61746 "POST /session/2d1bd2e6-8f99-450d-93b5-e548a70672be/element/e206c0ea-8714-4fbb-83ef-08e43c14ab50/click HTTP/1.1" 200 14
-Finished Request
-POST http://127.0.0.1:61746/session/2d1bd2e6-8f99-450d-93b5-e548a70672be/element {"using": "link text", "value": "Register"}
-http://127.0.0.1:61746 "POST /session/2d1bd2e6-8f99-450d-93b5-e548a70672be/element HTTP/1.1" 200 88
-Finished Request
-POST http://127.0.0.1:61746/session/2d1bd2e6-8f99-450d-93b5-e548a70672be/element/dc11fe62-6f7e-4cac-bf96-a8e7cadcb6ad/click {"id": "dc11fe62-6f7e-4cac-bf96-a8e7cadcb6ad"}
-http://127.0.0.1:61746 "POST /session/2d1bd2e6-8f99-450d-93b5-e548a70672be/element/dc11fe62-6f7e-4cac-bf96-a8e7cadcb6ad/click HTTP/1.1" 200 14
-Finished Request
-POST http://127.0.0.1:61746/session/2d1bd2e6-8f99-450d-93b5-e548a70672be/element {"using": "css selector", "value": "[name=\"firstname\"]"}
-http://127.0.0.1:61746 "POST /session/2d1bd2e6-8f99-450d-93b5-e548a70672be/element HTTP/1.1" 200 88
-Finished Request
-POST http://127.0.0.1:61746/session/2d1bd2e6-8f99-450d-93b5-e548a70672be/element/e75f83de-cc16-4370-8078-dafb9c8e031e/value {"text": "John", "value": ["J", "o", "h", "n"], "id": "e75f83de-cc16-4370-8078-dafb9c8e031e"}
-http://127.0.0.1:61746 "POST /session/2d1bd2e6-8f99-450d-93b5-e548a70672be/element/e75f83de-cc16-4370-8078-dafb9c8e031e/value HTTP/1.1" 200 14
-Finished Request
-POST http://127.0.0.1:61746/session/2d1bd2e6-8f99-450d-93b5-e548a70672be/element {"using": "css selector", "value": "[name=\"lastname\"]"}
-http://127.0.0.1:61746 "POST /session/2d1bd2e6-8f99-450d-93b5-e548a70672be/element HTTP/1.1" 200 88
-Finished Request
-POST http://127.0.0.1:61746/session/2d1bd2e6-8f99-450d-93b5-e548a70672be/element/d3904d98-a2da-4acf-8854-564fd1a4bc7f/value {"text": "Canedy", "value": ["C", "a", "n", "e", "d", "y"], "id": "d3904d98-a2da-4acf-8854-564fd1a4bc7f"}
-http://127.0.0.1:61746 "POST /session/2d1bd2e6-8f99-450d-93b5-e548a70672be/element/d3904d98-a2da-4acf-8854-564fd1a4bc7f/value HTTP/1.1" 200 14
-Finished Request
-POST http://127.0.0.1:61746/session/2d1bd2e6-8f99-450d-93b5-e548a70672be/element {"using": "css selector", "value": "[name=\"email\"]"}
-http://127.0.0.1:61746 "POST /session/2d1bd2e6-8f99-450d-93b5-e548a70672be/element HTTP/1.1" 200 88
-Finished Request
-POST http://127.0.0.1:61746/session/2d1bd2e6-8f99-450d-93b5-e548a70672be/element/50f3f046-3c7d-46ef-9973-fa7ddceaa98b/value {"text": "oc41i@gmail.com", "value": ["o", "c", "4", "1", "i", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"], "id": "50f3f046-3c7d-46ef-9973-fa7ddceaa98b"}
-http://127.0.0.1:61746 "POST /session/2d1bd2e6-8f99-450d-93b5-e548a70672be/element/50f3f046-3c7d-46ef-9973-fa7ddceaa98b/value HTTP/1.1" 200 14
-Finished Request
-POST http://127.0.0.1:61746/session/2d1bd2e6-8f99-450d-93b5-e548a70672be/element {"using": "css selector", "value": "[name=\"password\"]"}
-http://127.0.0.1:61746 "POST /session/2d1bd2e6-8f99-450d-93b5-e548a70672be/element HTTP/1.1" 200 88
-Finished Request
-POST http://127.0.0.1:61746/session/2d1bd2e6-8f99-450d-93b5-e548a70672be/element/a134b2e4-478d-4074-90ee-e6cdce5c3e43/value {"text": "abcxyz", "value": ["a", "b", "c", "x", "y", "z"], "id": "a134b2e4-478d-4074-90ee-e6cdce5c3e43"}
-http://127.0.0.1:61746 "POST /session/2d1bd2e6-8f99-450d-93b5-e548a70672be/element/a134b2e4-478d-4074-90ee-e6cdce5c3e43/value HTTP/1.1" 200 14
-Finished Request
-POST http://127.0.0.1:61746/session/2d1bd2e6-8f99-450d-93b5-e548a70672be/element {"using": "css selector", "value": "[name=\"agree\"]"}
-http://127.0.0.1:61746 "POST /session/2d1bd2e6-8f99-450d-93b5-e548a70672be/element HTTP/1.1" 200 88
-Finished Request
-POST http://127.0.0.1:61746/session/2d1bd2e6-8f99-450d-93b5-e548a70672be/element/885bbe41-1485-438a-8aba-84ef411b9a6e/click {"id": "885bbe41-1485-438a-8aba-84ef411b9a6e"}
-http://127.0.0.1:61746 "POST /session/2d1bd2e6-8f99-450d-93b5-e548a70672be/element/885bbe41-1485-438a-8aba-84ef411b9a6e/click HTTP/1.1" 200 14
-Finished Request
-POST http://127.0.0.1:61746/session/2d1bd2e6-8f99-450d-93b5-e548a70672be/element {"using": "xpath", "value": "//button[text()='Continue']"}
-http://127.0.0.1:61746 "POST /session/2d1bd2e6-8f99-450d-93b5-e548a70672be/element HTTP/1.1" 200 88
-Finished Request
-POST http://127.0.0.1:61746/session/2d1bd2e6-8f99-450d-93b5-e548a70672be/element/c8737791-2978-4e06-ba08-561b2f0fb6b4/click {"id": "c8737791-2978-4e06-ba08-561b2f0fb6b4"}
-http://127.0.0.1:61746 "POST /session/2d1bd2e6-8f99-450d-93b5-e548a70672be/element/c8737791-2978-4e06-ba08-561b2f0fb6b4/click HTTP/1.1" 200 14
-Finished Request
-POST http://127.0.0.1:61746/session/2d1bd2e6-8f99-450d-93b5-e548a70672be/element {"using": "xpath", "value": "//h1[normalize-space()='Your Account Has Been Created!']"}
-http://127.0.0.1:61746 "POST /session/2d1bd2e6-8f99-450d-93b5-e548a70672be/element HTTP/1.1" 404 440
-Finished Request
-GET http://127.0.0.1:61746/session/2d1bd2e6-8f99-450d-93b5-e548a70672be/screenshot {}
-http://127.0.0.1:61746 "GET /session/2d1bd2e6-8f99-450d-93b5-e548a70672be/screenshot HTTP/1.1" 200 133800
-Finished Request
-Account registration is failed...
-DELETE http://127.0.0.1:61746/session/2d1bd2e6-8f99-450d-93b5-e548a70672be/window {}
-http://127.0.0.1:61746 "DELETE /session/2d1bd2e6-8f99-450d-93b5-e548a70672be/window HTTP/1.1" 200 12
-Finished Request
-====== WebDriver manager ======
-Current firefox version is 119.0
-Get LATEST geckodriver version for 119.0 firefox
-Starting new HTTPS connection (1): api.github.com:443
-https://api.github.com:443 "GET /repos/mozilla/geckodriver/releases/latest HTTP/1.1" 200 2738
 Driver [C:\Users\Administrator\.wdm\drivers\geckodriver\win64\v0.33.0\geckodriver.exe] found in cache
-POST http://127.0.0.1:61817/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "firefox", "acceptInsecureCerts": true}}, "desiredCapabilities": {"browserName": "firefox", "acceptInsecureCerts": true, "marionette": true}}
-Starting new HTTP connection (1): 127.0.0.1:61817
-http://127.0.0.1:61817 "POST /session HTTP/1.1" 200 708
+POST http://127.0.0.1:51391/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "firefox", "acceptInsecureCerts": true}}, "desiredCapabilities": {"browserName": "firefox", "acceptInsecureCerts": true, "marionette": true}}
+Starting new HTTP connection (1): 127.0.0.1:51391
+http://127.0.0.1:51391 "POST /session HTTP/1.1" 200 708
 Finished Request
-**** test_001_AccountRegistration started ****
-POST http://127.0.0.1:61817/session/b1b2699e-7c77-4722-9d91-8257621384f0/url {"url": "https://demo.opencart.com/"}
-http://127.0.0.1:61817 "POST /session/b1b2699e-7c77-4722-9d91-8257621384f0/url HTTP/1.1" 200 14
+POST http://127.0.0.1:51391/session/1f8cad3f-e3bf-497c-a2b0-38f666e11430/url {"url": "https://demo.opencart.com/"}
+http://127.0.0.1:51391 "POST /session/1f8cad3f-e3bf-497c-a2b0-38f666e11430/url HTTP/1.1" 200 14
 Finished Request
-**** Launching application ****
-POST http://127.0.0.1:61817/session/b1b2699e-7c77-4722-9d91-8257621384f0/window/maximize {}
-http://127.0.0.1:61817 "POST /session/b1b2699e-7c77-4722-9d91-8257621384f0/window/maximize HTTP/1.1" 200 51
+POST http://127.0.0.1:51391/session/1f8cad3f-e3bf-497c-a2b0-38f666e11430/window/maximize {}
+http://127.0.0.1:51391 "POST /session/1f8cad3f-e3bf-497c-a2b0-38f666e11430/window/maximize HTTP/1.1" 200 51
 Finished Request
-**** clicking on MyAccount registration ****
-POST http://127.0.0.1:61817/session/b1b2699e-7c77-4722-9d91-8257621384f0/element {"using": "xpath", "value": "//div[@class='dropdown']//span[text()='My Account']"}
-http://127.0.0.1:61817 "POST /session/b1b2699e-7c77-4722-9d91-8257621384f0/element HTTP/1.1" 200 88
+GET http://127.0.0.1:51391/session/1f8cad3f-e3bf-497c-a2b0-38f666e11430/title {}
+http://127.0.0.1:51391 "GET /session/1f8cad3f-e3bf-497c-a2b0-38f666e11430/title HTTP/1.1" 200 22
 Finished Request
-POST http://127.0.0.1:61817/session/b1b2699e-7c77-4722-9d91-8257621384f0/element/3e6ba8fb-80a7-4d58-b7a4-ac319c098fd4/click {"id": "3e6ba8fb-80a7-4d58-b7a4-ac319c098fd4"}
-http://127.0.0.1:61817 "POST /session/b1b2699e-7c77-4722-9d91-8257621384f0/element/3e6ba8fb-80a7-4d58-b7a4-ac319c098fd4/click HTTP/1.1" 200 14
-Finished Request
-POST http://127.0.0.1:61817/session/b1b2699e-7c77-4722-9d91-8257621384f0/element {"using": "link text", "value": "Register"}
-http://127.0.0.1:61817 "POST /session/b1b2699e-7c77-4722-9d91-8257621384f0/element HTTP/1.1" 200 88
-Finished Request
-POST http://127.0.0.1:61817/session/b1b2699e-7c77-4722-9d91-8257621384f0/element/bb56777d-97ee-4341-aafb-27f2d6b44150/click {"id": "bb56777d-97ee-4341-aafb-27f2d6b44150"}
-http://127.0.0.1:61817 "POST /session/b1b2699e-7c77-4722-9d91-8257621384f0/element/bb56777d-97ee-4341-aafb-27f2d6b44150/click HTTP/1.1" 200 14
-Finished Request
-POST http://127.0.0.1:61817/session/b1b2699e-7c77-4722-9d91-8257621384f0/element {"using": "css selector", "value": "[name=\"firstname\"]"}
-http://127.0.0.1:61817 "POST /session/b1b2699e-7c77-4722-9d91-8257621384f0/element HTTP/1.1" 200 88
-Finished Request
-POST http://127.0.0.1:61817/session/b1b2699e-7c77-4722-9d91-8257621384f0/element/a0f87bd1-31b4-40fe-a943-00f25375804b/value {"text": "John", "value": ["J", "o", "h", "n"], "id": "a0f87bd1-31b4-40fe-a943-00f25375804b"}
-http://127.0.0.1:61817 "POST /session/b1b2699e-7c77-4722-9d91-8257621384f0/element/a0f87bd1-31b4-40fe-a943-00f25375804b/value HTTP/1.1" 200 14
-Finished Request
-POST http://127.0.0.1:61817/session/b1b2699e-7c77-4722-9d91-8257621384f0/element {"using": "css selector", "value": "[name=\"lastname\"]"}
-http://127.0.0.1:61817 "POST /session/b1b2699e-7c77-4722-9d91-8257621384f0/element HTTP/1.1" 200 88
-Finished Request
-POST http://127.0.0.1:61817/session/b1b2699e-7c77-4722-9d91-8257621384f0/element/452d83ee-348c-422c-a05b-e6affa0899b2/value {"text": "Canedy", "value": ["C", "a", "n", "e", "d", "y"], "id": "452d83ee-348c-422c-a05b-e6affa0899b2"}
-http://127.0.0.1:61817 "POST /session/b1b2699e-7c77-4722-9d91-8257621384f0/element/452d83ee-348c-422c-a05b-e6affa0899b2/value HTTP/1.1" 200 14
-Finished Request
-POST http://127.0.0.1:61817/session/b1b2699e-7c77-4722-9d91-8257621384f0/element {"using": "css selector", "value": "[name=\"email\"]"}
-http://127.0.0.1:61817 "POST /session/b1b2699e-7c77-4722-9d91-8257621384f0/element HTTP/1.1" 200 88
-Finished Request
-POST http://127.0.0.1:61817/session/b1b2699e-7c77-4722-9d91-8257621384f0/element/7d5ec8fc-cb93-4f7f-a0a8-c422ddb9afed/value {"text": "q3x5z@gmail.com", "value": ["q", "3", "x", "5", "z", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"], "id": "7d5ec8fc-cb93-4f7f-a0a8-c422ddb9afed"}
-http://127.0.0.1:61817 "POST /session/b1b2699e-7c77-4722-9d91-8257621384f0/element/7d5ec8fc-cb93-4f7f-a0a8-c422ddb9afed/value HTTP/1.1" 200 14
-Finished Request
-POST http://127.0.0.1:61817/session/b1b2699e-7c77-4722-9d91-8257621384f0/element {"using": "css selector", "value": "[name=\"password\"]"}
-http://127.0.0.1:61817 "POST /session/b1b2699e-7c77-4722-9d91-8257621384f0/element HTTP/1.1" 200 88
-Finished Request
-POST http://127.0.0.1:61817/session/b1b2699e-7c77-4722-9d91-8257621384f0/element/02ccdfb8-2d05-416f-b83d-f618ec409811/value {"text": "abcxyz", "value": ["a", "b", "c", "x", "y", "z"], "id": "02ccdfb8-2d05-416f-b83d-f618ec409811"}
-http://127.0.0.1:61817 "POST /session/b1b2699e-7c77-4722-9d91-8257621384f0/element/02ccdfb8-2d05-416f-b83d-f618ec409811/value HTTP/1.1" 200 14
-Finished Request
-POST http://127.0.0.1:61817/session/b1b2699e-7c77-4722-9d91-8257621384f0/element {"using": "css selector", "value": "[name=\"agree\"]"}
-http://127.0.0.1:61817 "POST /session/b1b2699e-7c77-4722-9d91-8257621384f0/element HTTP/1.1" 200 88
-Finished Request
-POST http://127.0.0.1:61817/session/b1b2699e-7c77-4722-9d91-8257621384f0/element/f33df8d6-c5f1-4403-bdae-0e3c3288d6d0/click {"id": "f33df8d6-c5f1-4403-bdae-0e3c3288d6d0"}
-http://127.0.0.1:61817 "POST /session/b1b2699e-7c77-4722-9d91-8257621384f0/element/f33df8d6-c5f1-4403-bdae-0e3c3288d6d0/click HTTP/1.1" 200 14
-Finished Request
-POST http://127.0.0.1:61817/session/b1b2699e-7c77-4722-9d91-8257621384f0/element {"using": "xpath", "value": "//button[text()='Continue']"}
-http://127.0.0.1:61817 "POST /session/b1b2699e-7c77-4722-9d91-8257621384f0/element HTTP/1.1" 200 88
-Finished Request
-POST http://127.0.0.1:61817/session/b1b2699e-7c77-4722-9d91-8257621384f0/element/0d71a826-e860-4741-a8fb-f1c1032dc15a/click {"id": "0d71a826-e860-4741-a8fb-f1c1032dc15a"}
-http://127.0.0.1:61817 "POST /session/b1b2699e-7c77-4722-9d91-8257621384f0/element/0d71a826-e860-4741-a8fb-f1c1032dc15a/click HTTP/1.1" 200 14
-Finished Request
-POST http://127.0.0.1:61817/session/b1b2699e-7c77-4722-9d91-8257621384f0/element {"using": "xpath", "value": "//h1[normalize-space()='Your Account Has Been Created!']"}
-http://127.0.0.1:61817 "POST /session/b1b2699e-7c77-4722-9d91-8257621384f0/element HTTP/1.1" 404 440
-Finished Request
-GET http://127.0.0.1:61817/session/b1b2699e-7c77-4722-9d91-8257621384f0/screenshot {}
-http://127.0.0.1:61817 "GET /session/b1b2699e-7c77-4722-9d91-8257621384f0/screenshot HTTP/1.1" 200 177284
-Finished Request
-Account registration is failed...
-DELETE http://127.0.0.1:61817/session/b1b2699e-7c77-4722-9d91-8257621384f0/window {}
-http://127.0.0.1:61817 "DELETE /session/b1b2699e-7c77-4722-9d91-8257621384f0/window HTTP/1.1" 200 12
-Finished Request
-====== WebDriver manager ======
-Current firefox version is 119.0
-Get LATEST geckodriver version for 119.0 firefox
-Starting new HTTPS connection (1): api.github.com:443
-https://api.github.com:443 "GET /repos/mozilla/geckodriver/releases/latest HTTP/1.1" 200 None
-Driver [C:\Users\Administrator\.wdm\drivers\geckodriver\win64\v0.33.0\geckodriver.exe] found in cache
-POST http://127.0.0.1:61852/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "firefox", "acceptInsecureCerts": true}}, "desiredCapabilities": {"browserName": "firefox", "acceptInsecureCerts": true, "marionette": true}}
-Starting new HTTP connection (1): 127.0.0.1:61852
-http://127.0.0.1:61852 "POST /session HTTP/1.1" 200 708
-Finished Request
-**** test_001_AccountRegistration started ****
-POST http://127.0.0.1:61852/session/3a8fb9e4-f998-409c-b4c1-2ccf6b509c05/url {"url": "https://demo.opencart.com/"}
-http://127.0.0.1:61852 "POST /session/3a8fb9e4-f998-409c-b4c1-2ccf6b509c05/url HTTP/1.1" 200 14
-Finished Request
-**** Launching application ****
-POST http://127.0.0.1:61852/session/3a8fb9e4-f998-409c-b4c1-2ccf6b509c05/window/maximize {}
-http://127.0.0.1:61852 "POST /session/3a8fb9e4-f998-409c-b4c1-2ccf6b509c05/window/maximize HTTP/1.1" 200 51
-Finished Request
-**** clicking on MyAccount registration ****
-POST http://127.0.0.1:61852/session/3a8fb9e4-f998-409c-b4c1-2ccf6b509c05/element {"using": "xpath", "value": "//div[@class='dropdown']//span[text()='My Account']"}
-http://127.0.0.1:61852 "POST /session/3a8fb9e4-f998-409c-b4c1-2ccf6b509c05/element HTTP/1.1" 200 88
-Finished Request
-POST http://127.0.0.1:61852/session/3a8fb9e4-f998-409c-b4c1-2ccf6b509c05/element/4f3688e1-9d01-49e4-97d2-575cf45281c1/click {"id": "4f3688e1-9d01-49e4-97d2-575cf45281c1"}
-http://127.0.0.1:61852 "POST /session/3a8fb9e4-f998-409c-b4c1-2ccf6b509c05/element/4f3688e1-9d01-49e4-97d2-575cf45281c1/click HTTP/1.1" 200 14
-Finished Request
-POST http://127.0.0.1:61852/session/3a8fb9e4-f998-409c-b4c1-2ccf6b509c05/element {"using": "link text", "value": "Register"}
-http://127.0.0.1:61852 "POST /session/3a8fb9e4-f998-409c-b4c1-2ccf6b509c05/element HTTP/1.1" 200 88
-Finished Request
-POST http://127.0.0.1:61852/session/3a8fb9e4-f998-409c-b4c1-2ccf6b509c05/element/efd4650d-440c-4a02-9e71-9075e94544b7/click {"id": "efd4650d-440c-4a02-9e71-9075e94544b7"}
-http://127.0.0.1:61852 "POST /session/3a8fb9e4-f998-409c-b4c1-2ccf6b509c05/element/efd4650d-440c-4a02-9e71-9075e94544b7/click HTTP/1.1" 200 14
-Finished Request
-POST http://127.0.0.1:61852/session/3a8fb9e4-f998-409c-b4c1-2ccf6b509c05/element {"using": "css selector", "value": "[name=\"firstname\"]"}
-http://127.0.0.1:61852 "POST /session/3a8fb9e4-f998-409c-b4c1-2ccf6b509c05/element HTTP/1.1" 200 88
-Finished Request
-POST http://127.0.0.1:61852/session/3a8fb9e4-f998-409c-b4c1-2ccf6b509c05/element/d8ebd96f-1c75-47ed-a8a7-c995e9b53326/value {"text": "John", "value": ["J", "o", "h", "n"], "id": "d8ebd96f-1c75-47ed-a8a7-c995e9b53326"}
-http://127.0.0.1:61852 "POST /session/3a8fb9e4-f998-409c-b4c1-2ccf6b509c05/element/d8ebd96f-1c75-47ed-a8a7-c995e9b53326/value HTTP/1.1" 200 14
-Finished Request
-POST http://127.0.0.1:61852/session/3a8fb9e4-f998-409c-b4c1-2ccf6b509c05/element {"using": "css selector", "value": "[name=\"lastname\"]"}
-http://127.0.0.1:61852 "POST /session/3a8fb9e4-f998-409c-b4c1-2ccf6b509c05/element HTTP/1.1" 200 88
-Finished Request
-POST http://127.0.0.1:61852/session/3a8fb9e4-f998-409c-b4c1-2ccf6b509c05/element/a6a8d250-b2ba-40fc-b97f-b827cc4ed367/value {"text": "Canedy", "value": ["C", "a", "n", "e", "d", "y"], "id": "a6a8d250-b2ba-40fc-b97f-b827cc4ed367"}
-http://127.0.0.1:61852 "POST /session/3a8fb9e4-f998-409c-b4c1-2ccf6b509c05/element/a6a8d250-b2ba-40fc-b97f-b827cc4ed367/value HTTP/1.1" 200 14
-Finished Request
-POST http://127.0.0.1:61852/session/3a8fb9e4-f998-409c-b4c1-2ccf6b509c05/element {"using": "css selector", "value": "[name=\"email\"]"}
-http://127.0.0.1:61852 "POST /session/3a8fb9e4-f998-409c-b4c1-2ccf6b509c05/element HTTP/1.1" 200 88
-Finished Request
-POST http://127.0.0.1:61852/session/3a8fb9e4-f998-409c-b4c1-2ccf6b509c05/element/e8f5b52b-b659-40cd-a60a-8e42337f508f/value {"text": "pj9k0@gmail.com", "value": ["p", "j", "9", "k", "0", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"], "id": "e8f5b52b-b659-40cd-a60a-8e42337f508f"}
-http://127.0.0.1:61852 "POST /session/3a8fb9e4-f998-409c-b4c1-2ccf6b509c05/element/e8f5b52b-b659-40cd-a60a-8e42337f508f/value HTTP/1.1" 200 14
-Finished Request
-POST http://127.0.0.1:61852/session/3a8fb9e4-f998-409c-b4c1-2ccf6b509c05/element {"using": "css selector", "value": "[name=\"password\"]"}
-http://127.0.0.1:61852 "POST /session/3a8fb9e4-f998-409c-b4c1-2ccf6b509c05/element HTTP/1.1" 200 88
-Finished Request
-POST http://127.0.0.1:61852/session/3a8fb9e4-f998-409c-b4c1-2ccf6b509c05/element/c7bdff2e-792d-418c-81e5-21d56607af00/value {"text": "abcxyz", "value": ["a", "b", "c", "x", "y", "z"], "id": "c7bdff2e-792d-418c-81e5-21d56607af00"}
-http://127.0.0.1:61852 "POST /session/3a8fb9e4-f998-409c-b4c1-2ccf6b509c05/element/c7bdff2e-792d-418c-81e5-21d56607af00/value HTTP/1.1" 200 14
-Finished Request
-POST http://127.0.0.1:61852/session/3a8fb9e4-f998-409c-b4c1-2ccf6b509c05/element {"using": "css selector", "value": "[name=\"agree\"]"}
-http://127.0.0.1:61852 "POST /session/3a8fb9e4-f998-409c-b4c1-2ccf6b509c05/element HTTP/1.1" 200 88
-Finished Request
-POST http://127.0.0.1:61852/session/3a8fb9e4-f998-409c-b4c1-2ccf6b509c05/element/274a1f1d-ef2e-45e8-85a5-b3dbe3bc4b6e/click {"id": "274a1f1d-ef2e-45e8-85a5-b3dbe3bc4b6e"}
-http://127.0.0.1:61852 "POST /session/3a8fb9e4-f998-409c-b4c1-2ccf6b509c05/element/274a1f1d-ef2e-45e8-85a5-b3dbe3bc4b6e/click HTTP/1.1" 200 14
-Finished Request
-POST http://127.0.0.1:61852/session/3a8fb9e4-f998-409c-b4c1-2ccf6b509c05/element {"using": "xpath", "value": "//button[text()='Continue']"}
-http://127.0.0.1:61852 "POST /session/3a8fb9e4-f998-409c-b4c1-2ccf6b509c05/element HTTP/1.1" 200 88
-Finished Request
-POST http://127.0.0.1:61852/session/3a8fb9e4-f998-409c-b4c1-2ccf6b509c05/element/ac7ee715-b24d-42e4-be99-28f3678d72cc/click {"id": "ac7ee715-b24d-42e4-be99-28f3678d72cc"}
-http://127.0.0.1:61852 "POST /session/3a8fb9e4-f998-409c-b4c1-2ccf6b509c05/element/ac7ee715-b24d-42e4-be99-28f3678d72cc/click HTTP/1.1" 200 14
-Finished Request
-POST http://127.0.0.1:61852/session/3a8fb9e4-f998-409c-b4c1-2ccf6b509c05/element {"using": "xpath", "value": "//h1[normalize-space()='Your Account Has Been Created!']"}
-http://127.0.0.1:61852 "POST /session/3a8fb9e4-f998-409c-b4c1-2ccf6b509c05/element HTTP/1.1" 404 440
-Finished Request
-GET http://127.0.0.1:61852/session/3a8fb9e4-f998-409c-b4c1-2ccf6b509c05/screenshot {}
-http://127.0.0.1:61852 "GET /session/3a8fb9e4-f998-409c-b4c1-2ccf6b509c05/screenshot HTTP/1.1" 200 134436
-Finished Request
-Account registration is failed...
-DELETE http://127.0.0.1:61852/session/3a8fb9e4-f998-409c-b4c1-2ccf6b509c05/window {}
-http://127.0.0.1:61852 "DELETE /session/3a8fb9e4-f998-409c-b4c1-2ccf6b509c05/window HTTP/1.1" 200 12
-Finished Request
-**** test_001_AccountRegistration started ****
-**** test_001_AccountRegistration started ****
-**** test_001_AccountRegistration started ****
-====== WebDriver manager ======
-Current firefox version is 119.0
-Get LATEST geckodriver version for 119.0 firefox
-Starting new HTTPS connection (1): api.github.com:443
-https://api.github.com:443 "GET /repos/mozilla/geckodriver/releases/latest HTTP/1.1" 200 None
-Driver [C:\Users\Administrator\.wdm\drivers\geckodriver\win64\v0.33.0\geckodriver.exe] found in cache
-POST http://127.0.0.1:61910/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "firefox", "acceptInsecureCerts": true}}, "desiredCapabilities": {"browserName": "firefox", "acceptInsecureCerts": true, "marionette": true}}
-Starting new HTTP connection (1): 127.0.0.1:61910
-http://127.0.0.1:61910 "POST /session HTTP/1.1" 200 709
-Finished Request
-**** test_001_AccountRegistration started ****
-POST http://127.0.0.1:61910/session/e58c6df3-e508-407e-8e23-abf091127315/url {"url": "https://demo.opencart.com/"}
-http://127.0.0.1:61910 "POST /session/e58c6df3-e508-407e-8e23-abf091127315/url HTTP/1.1" 200 14
-Finished Request
-**** Launching application ****
-POST http://127.0.0.1:61910/session/e58c6df3-e508-407e-8e23-abf091127315/window/maximize {}
-http://127.0.0.1:61910 "POST /session/e58c6df3-e508-407e-8e23-abf091127315/window/maximize HTTP/1.1" 200 51
-Finished Request
-**** clicking on MyAccount registration ****
-POST http://127.0.0.1:61910/session/e58c6df3-e508-407e-8e23-abf091127315/element {"using": "xpath", "value": "//div[@class='dropdown']//span[text()='My Account']"}
-http://127.0.0.1:61910 "POST /session/e58c6df3-e508-407e-8e23-abf091127315/element HTTP/1.1" 200 88
-Finished Request
-POST http://127.0.0.1:61910/session/e58c6df3-e508-407e-8e23-abf091127315/element/606145be-66b9-4d8b-a8bf-c8965a79b8c7/click {"id": "606145be-66b9-4d8b-a8bf-c8965a79b8c7"}
-http://127.0.0.1:61910 "POST /session/e58c6df3-e508-407e-8e23-abf091127315/element/606145be-66b9-4d8b-a8bf-c8965a79b8c7/click HTTP/1.1" 200 14
-Finished Request
-POST http://127.0.0.1:61910/session/e58c6df3-e508-407e-8e23-abf091127315/element {"using": "link text", "value": "Register"}
-http://127.0.0.1:61910 "POST /session/e58c6df3-e508-407e-8e23-abf091127315/element HTTP/1.1" 200 88
-Finished Request
-POST http://127.0.0.1:61910/session/e58c6df3-e508-407e-8e23-abf091127315/element/150c0a87-34f5-44ab-ab63-99538ef63e81/click {"id": "150c0a87-34f5-44ab-ab63-99538ef63e81"}
-http://127.0.0.1:61910 "POST /session/e58c6df3-e508-407e-8e23-abf091127315/element/150c0a87-34f5-44ab-ab63-99538ef63e81/click HTTP/1.1" 200 14
-Finished Request
-POST http://127.0.0.1:61910/session/e58c6df3-e508-407e-8e23-abf091127315/element {"using": "css selector", "value": "[name=\"firstname\"]"}
-http://127.0.0.1:61910 "POST /session/e58c6df3-e508-407e-8e23-abf091127315/element HTTP/1.1" 200 88
-Finished Request
-POST http://127.0.0.1:61910/session/e58c6df3-e508-407e-8e23-abf091127315/element/3efc9fd1-adab-4184-bc6e-fee9d357fca8/value {"text": "John", "value": ["J", "o", "h", "n"], "id": "3efc9fd1-adab-4184-bc6e-fee9d357fca8"}
-http://127.0.0.1:61910 "POST /session/e58c6df3-e508-407e-8e23-abf091127315/element/3efc9fd1-adab-4184-bc6e-fee9d357fca8/value HTTP/1.1" 200 14
-Finished Request
-POST http://127.0.0.1:61910/session/e58c6df3-e508-407e-8e23-abf091127315/element {"using": "css selector", "value": "[name=\"lastname\"]"}
-http://127.0.0.1:61910 "POST /session/e58c6df3-e508-407e-8e23-abf091127315/element HTTP/1.1" 200 88
-Finished Request
-POST http://127.0.0.1:61910/session/e58c6df3-e508-407e-8e23-abf091127315/element/3f059979-129b-4ae9-b197-f420ee72a2d6/value {"text": "Canedy", "value": ["C", "a", "n", "e", "d", "y"], "id": "3f059979-129b-4ae9-b197-f420ee72a2d6"}
-http://127.0.0.1:61910 "POST /session/e58c6df3-e508-407e-8e23-abf091127315/element/3f059979-129b-4ae9-b197-f420ee72a2d6/value HTTP/1.1" 200 14
-Finished Request
-POST http://127.0.0.1:61910/session/e58c6df3-e508-407e-8e23-abf091127315/element {"using": "css selector", "value": "[name=\"email\"]"}
-http://127.0.0.1:61910 "POST /session/e58c6df3-e508-407e-8e23-abf091127315/element HTTP/1.1" 200 88
-Finished Request
-POST http://127.0.0.1:61910/session/e58c6df3-e508-407e-8e23-abf091127315/element/3cdaf02a-8a1b-4e88-8537-d1e6c7a4f127/value {"text": "nv36q@gmail.com", "value": ["n", "v", "3", "6", "q", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"], "id": "3cdaf02a-8a1b-4e88-8537-d1e6c7a4f127"}
-http://127.0.0.1:61910 "POST /session/e58c6df3-e508-407e-8e23-abf091127315/element/3cdaf02a-8a1b-4e88-8537-d1e6c7a4f127/value HTTP/1.1" 200 14
-Finished Request
-POST http://127.0.0.1:61910/session/e58c6df3-e508-407e-8e23-abf091127315/element {"using": "css selector", "value": "[name=\"password\"]"}
-http://127.0.0.1:61910 "POST /session/e58c6df3-e508-407e-8e23-abf091127315/element HTTP/1.1" 200 88
-Finished Request
-POST http://127.0.0.1:61910/session/e58c6df3-e508-407e-8e23-abf091127315/element/a52dc96c-06e8-4547-881d-dd0cd47ae99a/value {"text": "abcxyz", "value": ["a", "b", "c", "x", "y", "z"], "id": "a52dc96c-06e8-4547-881d-dd0cd47ae99a"}
-http://127.0.0.1:61910 "POST /session/e58c6df3-e508-407e-8e23-abf091127315/element/a52dc96c-06e8-4547-881d-dd0cd47ae99a/value HTTP/1.1" 200 14
-Finished Request
-POST http://127.0.0.1:61910/session/e58c6df3-e508-407e-8e23-abf091127315/element {"using": "css selector", "value": "[name=\"agree\"]"}
-http://127.0.0.1:61910 "POST /session/e58c6df3-e508-407e-8e23-abf091127315/element HTTP/1.1" 200 88
-Finished Request
-POST http://127.0.0.1:61910/session/e58c6df3-e508-407e-8e23-abf091127315/element/2692a687-6195-4752-961d-a433750bf28e/click {"id": "2692a687-6195-4752-961d-a433750bf28e"}
-http://127.0.0.1:61910 "POST /session/e58c6df3-e508-407e-8e23-abf091127315/element/2692a687-6195-4752-961d-a433750bf28e/click HTTP/1.1" 200 14
-Finished Request
-POST http://127.0.0.1:61910/session/e58c6df3-e508-407e-8e23-abf091127315/element {"using": "xpath", "value": "//button[text()='Continue']"}
-http://127.0.0.1:61910 "POST /session/e58c6df3-e508-407e-8e23-abf091127315/element HTTP/1.1" 200 88
-Finished Request
-POST http://127.0.0.1:61910/session/e58c6df3-e508-407e-8e23-abf091127315/element/e24e6833-d3e2-4830-90b9-1c6d7e06d701/click {"id": "e24e6833-d3e2-4830-90b9-1c6d7e06d701"}
-http://127.0.0.1:61910 "POST /session/e58c6df3-e508-407e-8e23-abf091127315/element/e24e6833-d3e2-4830-90b9-1c6d7e06d701/click HTTP/1.1" 200 14
-Finished Request
-POST http://127.0.0.1:61910/session/e58c6df3-e508-407e-8e23-abf091127315/element {"using": "xpath", "value": "//h1[normalize-space()='Your Account Has Been Created!']"}
-http://127.0.0.1:61910 "POST /session/e58c6df3-e508-407e-8e23-abf091127315/element HTTP/1.1" 404 440
-Finished Request
-GET http://127.0.0.1:61910/session/e58c6df3-e508-407e-8e23-abf091127315/screenshot {}
-http://127.0.0.1:61910 "GET /session/e58c6df3-e508-407e-8e23-abf091127315/screenshot HTTP/1.1" 200 177284
-Finished Request
-Account registration is failed...
-DELETE http://127.0.0.1:61910/session/e58c6df3-e508-407e-8e23-abf091127315/window {}
-http://127.0.0.1:61910 "DELETE /session/e58c6df3-e508-407e-8e23-abf091127315/window HTTP/1.1" 200 12
+DELETE http://127.0.0.1:51391/session/1f8cad3f-e3bf-497c-a2b0-38f666e11430/window {}
+http://127.0.0.1:51391 "DELETE /session/1f8cad3f-e3bf-497c-a2b0-38f666e11430/window HTTP/1.1" 200 12
 Finished Request

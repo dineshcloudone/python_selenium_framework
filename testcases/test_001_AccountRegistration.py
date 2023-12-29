@@ -45,6 +45,7 @@ class Test_001_AccountReg:
             self.logger.info("Account registration is passed...")
             assert True
             self.driver.close()
+
         else:
             #path = os.path.abspath(os.curdir)
             #print(f"File path is :{path}")

@@ -5,6 +5,8 @@ class LogGen():
     @staticmethod
     def loggen():
         path = os.path.abspath(os.curdir) + '\\logs\\automation.log'
+        print(path)
+        #path = r'C:\Python\Test_Project\logs\automation.log'
         logging.basicConfig(format='%(asctime)s: %(levelname)s: %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
         file_handler=logging.FileHandler(filename=path, mode='a', encoding=None, delay=False)
         logger = logging.getLogger()

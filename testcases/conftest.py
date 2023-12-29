@@ -16,6 +16,7 @@ from selenium.webdriver.chrome.service import Service
 @pytest.fixture()
 def setup(browser):
     driver=None
+
     #pdb.set_trace()
     if browser == 'edge':
         driver = webdriver.Edge(EdgeChromiumDriverManager().install())
@@ -24,10 +25,9 @@ def setup(browser):
         driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
         print("Launching firefox browser.........")
     else:
-        print("Please given either edge or firefox browser names")
+        print("Please give either edge or firefox browser names")
         #driver = webdriver.Chrome7(ChromeDriverManager().install())
         #print("Launching chrome browser.........")
-
     return driver
 
 def pytest_addoption(parser):  # This will get the value from CLI /hooks

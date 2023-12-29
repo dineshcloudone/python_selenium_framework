@@ -419,3 +419,125 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: https://
 1699889543389	Marionette	INFO	Stopped listening on port 61917
 Dynamically enable window occlusion 1
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1702973256599	geckodriver	INFO	Listening on 127.0.0.1:49293
+1702973257114	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileHcUO1k"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702973259827	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702973260225	Marionette	INFO	Listening on port 49300
+Read port: 49300
+1702973260883	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+1702973269665	Marionette	INFO	Stopped listening on port 49300
+Dynamically enable window occlusion 1
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1702973762246	geckodriver	INFO	Listening on 127.0.0.1:49366
+1702973762754	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileV4AU12"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702973765164	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702973765509	Marionette	INFO	Listening on port 49373
+Read port: 49373
+1702973765732	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+1702973775185	Marionette	INFO	Stopped listening on port 49373
+Dynamically enable window occlusion 1
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1702973891894	geckodriver	INFO	Listening on 127.0.0.1:49420
+1702973892406	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile7yAaYb"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702973894748	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702973895115	Marionette	INFO	Listening on port 49427
+Read port: 49427
+1702973895656	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1702973927520	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.error: services.settings: 
+  main/search-config-v2 Signature failed  InvalidSignatureError: Invalid content signature (main/search-config-v2) using 'remote-settings.content-signature.mozilla.org-2024-01-19-16-42-21.chain'
+console.error: services.settings: 
+  main/search-config-v2 local data was corrupted
+console.warn: services.settings: main/search-config-v2 Signature verified failed. Retry from scratch
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1702988686019	Marionette	INFO	Stopped listening on port 49427
+Dynamically enable window occlusion 1
+te" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileJ5I7DY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702988594730	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702988595045	Marionette	INFO	Listening on port 50967
+Read port: 50967
+1702988595518	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.opencart.com."
+1702988603763	Marionette	INFO	Stopped listening on port 50967
+Dynamically enable window occlusion 1
+1702988664259	geckodriver	INFO	Listening on 127.0.0.1:51004
+1702988664781	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileevXoZc"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702988666799	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702988667122	Marionette	INFO	Listening on port 51011
+Read port: 51011
+1702988667609	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1702988683952	Marionette	INFO	Stopped listening on port 51011
+Dynamically enable window occlusion 1
+1702988790011	geckodriver	INFO	Listening on 127.0.0.1:51055
+1702988790529	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileuEba4A"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702988792525	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702988792839	Marionette	INFO	Listening on port 51063
+Read port: 51063
+1702988793298	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1702988823620	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.error: services.settings: 
+  main/search-config-v2 Signature failed  InvalidSignatureError: Invalid content signature (main/search-config-v2) using 'remote-settings.content-signature.mozilla.org-2024-01-19-16-42-21.chain'
+console.error: services.settings: 
+  main/search-config-v2 local data was corrupted
+console.warn: services.settings: main/search-config-v2 Signature verified failed. Retry from scratch
+1703075223938	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: http://9.30.122.118:3000/public/build/1486.9f5c58b5413b0650af69.js, line 30: unreachable code after return statement
+JavaScript warning: http://9.30.122.118:3000/public/build/1486.9f5c58b5413b0650af69.js, line 30: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://9.30.122.118:3000."
+JavaScript warning: http://9.30.122.118:3000/public/build/1486.9f5c58b5413b0650af69.js, line 30: unreachable code after return statement
+JavaScript warning: http://9.30.122.118:3000/public/build/1486.9f5c58b5413b0650af69.js, line 30: unreachable code after return statement
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+JavaScript error: http://9.30.122.118:3000/public/build/1486.9f5c58b5413b0650af69.js, line 453: uncaught exception: [object Object]
+JavaScript error: http://9.30.122.118:3000/public/build/1486.9f5c58b5413b0650af69.js, line 453: uncaught exception: [object Object]
+1703161633449	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1703248041741	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1703334449942	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1703420857778	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript warning: http://9.30.122.118:3000/public/build/1486.9f5c58b5413b0650af69.js, line 30: unreachable code after return statement
+JavaScript warning: http://9.30.122.118:3000/public/build/1486.9f5c58b5413b0650af69.js, line 30: unreachable code after return statement
+JavaScript error: http://9.30.122.118:3000/public/build/1486.9f5c58b5413b0650af69.js, line 453: uncaught exception: [object Object]
+JavaScript error: http://9.30.122.118:3000/public/build/1486.9f5c58b5413b0650af69.js, line 453: uncaught exception: [object Object]
+JavaScript warning: http://9.30.122.118:3000/public/build/1486.9f5c58b5413b0650af69.js, line 30: unreachable code after return statement
+JavaScript warning: http://9.30.122.118:3000/public/build/1486.9f5c58b5413b0650af69.js, line 30: unreachable code after return statement
+JavaScript error: http://9.30.122.118:3000/public/build/1486.9f5c58b5413b0650af69.js, line 453: uncaught exception: [object Object]
+JavaScript error: http://9.30.122.118:3000/public/build/1486.9f5c58b5413b0650af69.js, line 453: uncaught exception: [object Object]
+JavaScript error: http://9.30.122.118:3000/public/build/1486.9f5c58b5413b0650af69.js, line 453: uncaught exception: [object Object]
+JavaScript error: http://9.30.122.118:3000/public/build/1486.9f5c58b5413b0650af69.js, line 453: uncaught exception: [object Object]
+1703507257964	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1703593744345	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1703680144475	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1703766544192	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1703852944407	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
